@@ -35,11 +35,3 @@ An IDS should validate the **presence** of required entities and properties. It 
 
 ## Limitations and further checks
 Room-use classification is keyword-based. The matching algorithm uses bounding geometry, which can misassign windows in complex models. Areas extracted from IFC are not independently verified. Review missing quantities, unassigned windows and borderline results manually. The script does not simulate daylight, solar shading or interior illuminance.
-
-## A3 submission checklist
-- [x] `main.py` entry point and supporting module
-- [x] README with purpose, requirements and execution steps
-- [x] Notebook demonstrating tables and summaries
-- [ ] IDS file tested against the actual model
-- [ ] Run and verify outputs against the actual IFC model
-- [ ] Confirm A2 BPMN correspondence and the precise design stage
