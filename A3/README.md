@@ -1,4 +1,4 @@
-# A3 — IFC daylight screening tool
+# A3 - IFC daylight screening tool
 
 ## Problem and source
 Our A2 use case concerns assessing the relationship between window area and floor area in occupied spaces. The work builds on Group 10's automated daylight calculations and our investigation of Building 308. A manual room-by-room check is time-consuming, and the information may be spread across different IFC entities and quantity sets.
