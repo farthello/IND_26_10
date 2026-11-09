@@ -2,7 +2,7 @@
 
 import csv
 
-from A3.daylight_analysis import EXCLUDED_TYPES
+from A4.daylight_analysis import EXCLUDED_TYPES
 
 
 def make_tables(results, threshold=10.0):
