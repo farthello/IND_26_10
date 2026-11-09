@@ -58,7 +58,3 @@ Choose a class with a nonzero count, such as `IfcWindow`. Set `ELEMENT_CLASS` in
 - **`FileNotFoundError`** · Check the model filename and the full path shown in the error message.
 - **Empty `Container` value** · The element has no spatial container returned by the query, so its container field is blank in the CSV.
 
-## Further reading
-
-- [IfcOpenShell Python documentation](https://docs.ifcopenshell.org/ifcopenshell-python.html)
-- [DTU 41934 A3 Teach assignment](https://timmcginley.github.io/41934/Assignments/A3.html)
