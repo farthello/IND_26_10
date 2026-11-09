@@ -10,7 +10,7 @@ Use Python and IfcOpenShell to open an IFC model, count building elements, and i
 
 This tutorial is for students who know basic Python and want to extract information from an IFC model. It introduces skills for the **OpenBIM Analyst, Level 3** role by using IfcOpenShell in a standalone Python environment. [Course role description](https://timmcginley.github.io/41934/Roles/Analyst.html)
 
-**Focus area and BIM use (example)** · Indoor (and Energy), supporting lighting analysis. Before assessing daylight, check whether the IFC model contains windows and spaces and inspect what information is available about them. [Course focus area](https://timmcginley.github.io/41934/Focus/Indoor.html)
+**Focus area and BIM use (example)** · (Indoor and Energy), supporting lighting analysis. Before assessing daylight, check whether the IFC model contains windows and spaces and inspect what information is available about them. [Course focus area](https://timmcginley.github.io/41934/Focus/Indoor.html)
 
 ## Learning objectives
 
@@ -29,7 +29,7 @@ This tutorial is for students who know basic Python and want to extract informat
    python -m notebook test.ipynb
    ```
 
-3. In **Section 2**, set `IFC_PATH` to your model file. If your model is named `example.ifc` and is in the notebook folder, use the default below. For a model stored elsewhere, use its full path.
+3. In **Section 2**, set `IFC_PATH` to your model file. If your model is named `example.ifc` and is in the notebook folder, use the default below. For a model stored elsewhere, use its full path eg: `IFC_PATH = Path(r"C:\Users\Student\Documents\Advanced BIM\example.ifc")`
 
    ```python
    IFC_PATH = Path("example.ifc")
