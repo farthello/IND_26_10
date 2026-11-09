@@ -22,7 +22,7 @@ This tutorial is for students who know basic Python and want to extract informat
 ## Run the tutorial
 
 1. Download or clone this repository. You will need Python and an `.ifc` model. The saved notebook example used Python 3.11 and IfcOpenShell 0.8.5.
-2. Open a terminal in the folder containing [`test.ipynb`](test.ipynb), install the packages, and launch the notebook.
+2. Open a terminal in the folder containing [`IFCopenshell_tutorial.ipynb`](IFCopenshell_tutorial.ipynb), install the packages, and launch the notebook.
 
    ```bash
    python -m pip install ifcopenshell pandas jupyter
