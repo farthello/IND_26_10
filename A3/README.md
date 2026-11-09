@@ -50,7 +50,7 @@ The model used in the notebook example returned **229 windows**. Your count will
 
 ## Peer exercise
 
-Choose a class with a nonzero count, such as `IfcWindow`. Set `ELEMENT_CLASS` in **Section 4** and rerun Sections 4–6. Check that the CSV contains the same number of data rows as the class count in Section 3. Pick one row and identify its spatial container, if one is assigned. Rerunning the export replaces the previous CSV.
+Choose a class with a nonzero count, such as `IfcWindow`. Set `ELEMENT_CLASS` in **Section 4** and rerun Sections 4–6. Check that the CSV contains the same number of data rows as the class count in Section 3. So for example in the example.ifc file we used, the code in section 3 gave us a count of 149 for IfcWall. Where in the exported CSV file for IfcWall we have 149 rows of data, so the counts match. Pick one row and identify its spatial container, if one is assigned. Rerunning the export replaces the previous CSV.
 
 ## Troubleshooting
 
