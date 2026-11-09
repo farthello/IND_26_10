@@ -4,7 +4,7 @@ DTU 41934 Advanced BIM · A3 Teach
 
 ## Summary
 
-Use Python and IfcOpenShell to open an IFC model, count building elements, and inspect their properties and spatial containers. The notebook shows how to export a table of selected elements to CSV for further analysis.
+Use Python and IfcOpenShell to open an IFC model, count building elements, and inspect their properties and spatial containers. The adjacent Jupyter notebook file shows how and what lines of code is need to export a basic table of selected elements to CSV for further analysis.
 
 ## Who this is for
 
