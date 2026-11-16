@@ -1,4 +1,4 @@
-# A3 - IFC daylight screening tool
+# A4 - IFC daylight screening tool
 
 ## Problem and source
 Our A2 use case concerns assessing the relationship between window area and floor area in occupied spaces. The work builds on Group 10's automated daylight calculations and our investigation of Building 308. A manual room-by-room check is time-consuming, and the information may be spread across different IFC entities and quantity sets.
@@ -9,6 +9,19 @@ The script reads an IFC model, matches windows to spaces using geometry, extract
 This is a **screening tool**, not a complete BR18 daylight verification. The default threshold is 10%, but compliance requires verifying the applicable calculation method and assumptions. Window area is not necessarily equivalent to the relevant glass area; geometry-based assignments and room-use classifications also require review.
 
 ## Requirements
+
+Run `A4/main.py` in your IDE, or run the following from the repository root:
+
+```powershell
+.\.venv\Scripts\python.exe A4/main.py
+```
+
+With no arguments, the tool reads `model/B308X.ifc` and saves `A4/results.csv`,
+regardless of the working directory. You can also run `python main.py` from
+inside `A4`, or `python -m A4.main` from the repository root.
+To choose another model or output location, use
+`python A4/main.py "path/to/model.ifc" --output "path/to/results.csv"`
+from the repository root. Relative arguments are resolved from the working directory.
 Python, `ifcopenshell`, `numpy`; `pandas` and `jupyter` for the demonstration notebook.
 
 ```bash
