@@ -50,7 +50,7 @@ The model used in the notebook example returned **229 windows**. Your count will
 
 ## Peer exercise
 
-Choose a class with a nonzero count, such as `IfcWindow`. Set `ELEMENT_CLASS` in **Section 4** and rerun Sections 4–6. Check that the CSV contains the same number of data rows as the class count in Section 3. Pick one row and identify its spatial container, if one is assigned. Rerunning the export replaces the previous CSV.
+Choose a class with a nonzero count, such as `IfcWindow`. Set `ELEMENT_CLASS` in **Section 4** and rerun Sections 4–6. Check that the CSV contains the same number of data rows as the class count in Section 3. So for example in the example.ifc file we used, the code in section 3 gave us a count of 149 for IfcWall. Where in the exported CSV file for IfcWall we have 149 rows of data, so the counts match. Pick one row and identify its spatial container, if one is assigned. Rerunning the export replaces the previous CSV.
 
 ## Troubleshooting
 
@@ -58,7 +58,3 @@ Choose a class with a nonzero count, such as `IfcWindow`. Set `ELEMENT_CLASS` in
 - **`FileNotFoundError`** · Check the model filename and the full path shown in the error message.
 - **Empty `Container` value** · The element has no spatial container returned by the query, so its container field is blank in the CSV.
 
-## Further reading
-
-- [IfcOpenShell Python documentation](https://docs.ifcopenshell.org/ifcopenshell-python.html)
-- [DTU 41934 A3 Teach assignment](https://timmcginley.github.io/41934/Assignments/A3.html)
