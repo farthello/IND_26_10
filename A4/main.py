@@ -12,12 +12,13 @@ else:
 
 
 def main():
+    model = '25-08-D-ARCH.ifc'
     folder = Path(__file__).resolve().parent
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
         "model", nargs="?", type=Path,
-        default=folder.parent / "model" / "B308X.ifc",
-        help="IFC model (default: model/B308X.ifc in this repository)",
+        default=folder.parent / "model" / model,
+        help=f"IFC model (default: {model} in this repository)",
     )
     parser.add_argument(
         "--output", type=Path, default=Path.home() / "Downloads" / "results.csv",
