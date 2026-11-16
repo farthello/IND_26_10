@@ -5,10 +5,10 @@ from pathlib import Path
 
 if __package__:
     from .Analysis.daylight_analysis import run_ifc_analysis
-    from .Analysis.analysis_formatted import export_csv, make_tables
+    from .Analysis.analysis_formatted import export_csv, export_xlsx, make_tables
 else:
     from Analysis.daylight_analysis import run_ifc_analysis
-    from Analysis.analysis_formatted import export_csv, make_tables
+    from Analysis.analysis_formatted import export_csv, export_xlsx, make_tables
 
 
 def main():
@@ -20,8 +20,8 @@ def main():
         help="IFC model (default: model/B308X.ifc in this repository)",
     )
     parser.add_argument(
-        "--output", type=Path, default=folder / "results.csv",
-        help="CSV destination (default: A4/results.csv)",
+        "--output", type=Path, default=Path.home() / "Downloads" / "results.csv",
+        help="CSV destination (default: ~/Downloads/results.csv); XLSX saved alongside it",
     )
     args = parser.parse_args()
     if not args.model.is_file():
@@ -33,13 +33,11 @@ def main():
         parser.exit(1, "No rooms found in the model; no CSV was written.\n")
     args.output.parent.mkdir(parents=True, exist_ok=True)
     export_csv(rows, args.output)
+    xlsx_path = args.output.with_suffix(".xlsx")
+    export_xlsx(rows, xlsx_path)
 
-    print(f"\nRooms: {summary['total_rooms']}")
-    print(f"Windows assigned: {summary['windows_assigned']} / {summary['total_windows']}")
-    print(f"Overall window-to-floor ratio: {summary['overall_ratio']:.2f}%")
-    for status in ("OK", "FAIL", "REVIEW USE", "MISSING AREA", "N/A"):
-        print(f"{status}: {summary[status]}")
     print(f"CSV saved to: {args.output.resolve()}")
+    print(f"XLSX saved to: {xlsx_path.resolve()}")
 
 
 if __name__ == "__main__":

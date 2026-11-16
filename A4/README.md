@@ -20,7 +20,8 @@ Run `A4/main.py` in your IDE, or run the following from the repository root:
 .\.venv\Scripts\python.exe A4/main.py
 ```
 
-With no arguments, the tool reads `model/B308X.ifc` and saves `A4/results.csv`,
+With no arguments, the tool reads `model/B308X.ifc` and saves `results.csv` and
+`results.xlsx` in the current user's Downloads folder (`~/Downloads`),
 regardless of the working directory. You can also run `python main.py` from
 inside `A4`, or `python -m A4.main` from the repository root.
 To choose another model or output location, use

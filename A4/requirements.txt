@@ -1,6 +1,7 @@
 # Third-party packages required to run main.py.
 ifcopenshell
 numpy
+openpyxl
 
 # argparse, pathlib, and csv are included with Python.
 # Analysis modules are part of this project.
