@@ -8,6 +8,10 @@ The script reads an IFC model, matches windows to spaces using geometry, extract
 
 This is a **screening tool**, not a complete BR18 daylight verification. The default threshold is 10%, but compliance requires verifying the applicable calculation method and assumptions. Window area is not necessarily equivalent to the relevant glass area; geometry-based assignments and room-use classifications also require review.
 
+## Description of the tool
+
+
+# Instructions to run the tool
 ## Requirements
 
 Run `A4/main.py` in your IDE, or run the following from the repository root:
@@ -35,8 +39,12 @@ Place the IFC file on your computer. Do not commit it to the A3 repository. Chan
 ## Outputs
 `results.csv` includes storey, room name and use, floor area, window area, number of windows, ratio, and screening status (`OK`, `FAIL`, `REVIEW USE`, `MISSING AREA`, or `N/A`). The notebook shows the same room table and a summary by screening status.
 
-## Use in Advanced Building Design
+## Use in Advanced Building Design stages
 The tool is most relevant during design assessment and development, when room layouts and window dimensions can still be adjusted. Architecture and building physics / indoor-climate teams could use it. A precise stage designation (A–D) should be aligned with the A2 workflow before submission.
+
+## Which subjects might use it?
+
+
 
 ## IFC information required
 - `IfcSpace` objects with identifiable room names/use and floor-area quantities.
