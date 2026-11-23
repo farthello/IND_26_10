@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="18.31.0">
+  <bpmn:category id="Category_Group_PerRoom">
+    <bpmn:categoryValue id="CategoryValue_Group_PerRoom" value="For each relevant room" />
+  </bpmn:category>
+  <bpmn:collaboration id="Collaboration_Tool">
+    <bpmn:participant id="Participant_Pref" name="PREFERENCE INFO" processRef="Process_Pref" />
+    <bpmn:participant id="Participant_Tool" name="TOOL PROCESS" processRef="Process_Tool" />
+    <bpmn:participant id="Participant_Info" name="INFO EXCHANGE" processRef="Process_Info" />
+    <bpmn:messageFlow id="MessageFlow_Issues" sourceRef="Task_LogIssue" targetRef="Event_ReturnIssues" />
+    <bpmn:group id="Group_PerRoom" categoryValueRef="CategoryValue_Group_PerRoom" />
+    <bpmn:group id="Group_Outputs" categoryValueRef="CategoryValue_0jhj2id" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_Pref" isExecutable="false">
+    <bpmn:dataObjectReference id="DataObjectReference_RoomUse" name="Room use and&#10;assumptions&#10;(confirmed by&#10;architect)" dataObjectRef="DataObject_DataObjectReference_RoomUse" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_RoomUse" />
+    <bpmn:dataObjectReference id="DataObjectReference_Corrections" name="Correction inputs&#10;(transmittance,&#10;shading, etc.)" dataObjectRef="DataObject_DataObjectReference_Corrections" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_Corrections" />
+    <bpmn:dataObjectReference id="DataObjectReference_Validation" name="Validation checks:&#10;areas, units,&#10;corrections,&#10;window links" dataObjectRef="DataObject_DataObjectReference_Validation" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_Validation" />
+    <bpmn:dataObjectReference id="DataObjectReference_BR18" name="BR18 §379&#10;10% method&#10;and guidance" dataObjectRef="DataObject_DataObjectReference_BR18" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_BR18" />
+    <bpmn:dataObjectReference id="DataObjectReference_Scenario" name="Window scenario&#10;(proposed change,&#10;user input)" dataObjectRef="DataObject_DataObjectReference_Scenario" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_Scenario" />
+    <bpmn:dataObjectReference id="DataObjectReference_Reporting" name="Reporting rules:&#10;preliminary label,&#10;surpluses do not&#10;offset deficits" dataObjectRef="DataObject_DataObjectReference_Reporting" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_Reporting" />
+  </bpmn:process>
+  <bpmn:process id="Process_Tool" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_0c3x2t8" />
+    <bpmn:startEvent id="StartEvent_Tool" name="Start process">
+      <bpmn:outgoing>Flow_t1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:endEvent id="EndEvent_Tool" name="End process">
+      <bpmn:incoming>Flow_t17</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:task id="Task_OpenIFC" name="Open IFC and read units">
+      <bpmn:incoming>Flow_t1</bpmn:incoming>
+      <bpmn:outgoing>Flow_t2</bpmn:outgoing>
+      <bpmn:property id="Property_0ledian" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_t6">
+        <bpmn:sourceRef>DataObjectReference_IFC</bpmn:sourceRef>
+        <bpmn:targetRef>Property_0ledian</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_ExtractRooms" name="Extract rooms (GUID, storey, name, use)">
+      <bpmn:incoming>Flow_t2</bpmn:incoming>
+      <bpmn:outgoing>Flow_t3</bpmn:outgoing>
+      <bpmn:property id="Property_0it6qub" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_t1">
+        <bpmn:sourceRef>DataObjectReference_RoomUse</bpmn:sourceRef>
+        <bpmn:targetRef>Property_0it6qub</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_ReadFloorArea" name="Read relevant floor area">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+      <bpmn:incoming>Flow_t3</bpmn:incoming>
+      <bpmn:outgoing>Flow_t4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_AssociateWindows" name="Associate windows to rooms">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+      <bpmn:incoming>Flow_t4</bpmn:incoming>
+      <bpmn:outgoing>Flow_t5</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_GlassArea" name="Determine corrected glass area">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+      <bpmn:incoming>Flow_t5</bpmn:incoming>
+      <bpmn:outgoing>Flow_t6</bpmn:outgoing>
+      <bpmn:property id="Property_0j2vsco" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_t2">
+        <bpmn:sourceRef>DataObjectReference_Corrections</bpmn:sourceRef>
+        <bpmn:targetRef>Property_0j2vsco</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_DataValid" name="Room data&#10;valid?">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+      <bpmn:incoming>Flow_t6</bpmn:incoming>
+      <bpmn:outgoing>Flow_t7</bpmn:outgoing>
+      <bpmn:outgoing>Flow_t8</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_Calculate" name="Calculate ratio, margins and glazing deficit">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+      <bpmn:incoming>Flow_t7</bpmn:incoming>
+      <bpmn:outgoing>Flow_t9</bpmn:outgoing>
+      <bpmn:property id="Property_1ram3z2" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_t3">
+        <bpmn:sourceRef>DataObjectReference_BR18</bpmn:sourceRef>
+        <bpmn:targetRef>Property_1ram3z2</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_Rank" name="Rank rooms below 10% by glazing deficit">
+      <bpmn:incoming>Flow_t9</bpmn:incoming>
+      <bpmn:incoming>Flow_t10</bpmn:incoming>
+      <bpmn:outgoing>Flow_t11</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_Scenario" name="Scenario&#10;entered?">
+      <bpmn:incoming>Flow_t11</bpmn:incoming>
+      <bpmn:outgoing>Flow_t12</bpmn:outgoing>
+      <bpmn:outgoing>Flow_t15</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_StoreySummary" name="Compile storey summary">
+      <bpmn:incoming>Flow_t14</bpmn:incoming>
+      <bpmn:incoming>Flow_t15</bpmn:incoming>
+      <bpmn:outgoing>Flow_t16</bpmn:outgoing>
+      <bpmn:property id="Property_0yo8w1s" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_t5">
+        <bpmn:sourceRef>DataObjectReference_Reporting</bpmn:sourceRef>
+        <bpmn:targetRef>Property_0yo8w1s</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_Export" name="Export room table, summary and scenarios">
+      <bpmn:incoming>Flow_t16</bpmn:incoming>
+      <bpmn:outgoing>Flow_t17</bpmn:outgoing>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_t2">
+        <bpmn:targetRef>DataObjectReference_RoomTable</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_t3">
+        <bpmn:targetRef>DataObjectReference_StoreySummary</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_t4">
+        <bpmn:targetRef>DataObjectReference_ScenarioComp</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_LogIssue" name="Log issue and mark room unassessable">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+      <bpmn:incoming>Flow_t8</bpmn:incoming>
+      <bpmn:outgoing>Flow_t10</bpmn:outgoing>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_t1">
+        <bpmn:targetRef>DataObjectReference_Issues</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_Recalc" name="Recalculate with proposed window (IFC unchanged)">
+      <bpmn:incoming>Flow_t12</bpmn:incoming>
+      <bpmn:outgoing>Flow_t13</bpmn:outgoing>
+      <bpmn:property id="Property_1rbnw97" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_t4">
+        <bpmn:sourceRef>DataObjectReference_Scenario</bpmn:sourceRef>
+        <bpmn:targetRef>Property_1rbnw97</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_Compare" name="Compare revised result with baseline">
+      <bpmn:incoming>Flow_t13</bpmn:incoming>
+      <bpmn:outgoing>Flow_t14</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="Flow_t1" sourceRef="StartEvent_Tool" targetRef="Task_OpenIFC" />
+    <bpmn:sequenceFlow id="Flow_t17" sourceRef="Task_Export" targetRef="EndEvent_Tool" />
+    <bpmn:sequenceFlow id="Flow_t2" sourceRef="Task_OpenIFC" targetRef="Task_ExtractRooms" />
+    <bpmn:sequenceFlow id="Flow_t3" sourceRef="Task_ExtractRooms" targetRef="Task_ReadFloorArea" />
+    <bpmn:sequenceFlow id="Flow_t4" sourceRef="Task_ReadFloorArea" targetRef="Task_AssociateWindows">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_t5" sourceRef="Task_AssociateWindows" targetRef="Task_GlassArea">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_t6" sourceRef="Task_GlassArea" targetRef="Gateway_DataValid">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_t7" name="yes" sourceRef="Gateway_DataValid" targetRef="Task_Calculate">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_t8" name="no" sourceRef="Gateway_DataValid" targetRef="Task_LogIssue">
+      <bpmn:categoryValueRef>CategoryValue_Group_PerRoom</bpmn:categoryValueRef>
+    </bpmn:sequenceFlow>
+    <bpmn:sequenceFlow id="Flow_t9" sourceRef="Task_Calculate" targetRef="Task_Rank" />
+    <bpmn:sequenceFlow id="Flow_t10" sourceRef="Task_LogIssue" targetRef="Task_Rank" />
+    <bpmn:sequenceFlow id="Flow_t11" sourceRef="Task_Rank" targetRef="Gateway_Scenario" />
+    <bpmn:sequenceFlow id="Flow_t12" name="yes" sourceRef="Gateway_Scenario" targetRef="Task_Recalc" />
+    <bpmn:sequenceFlow id="Flow_t15" name="no" sourceRef="Gateway_Scenario" targetRef="Task_StoreySummary" />
+    <bpmn:sequenceFlow id="Flow_t14" sourceRef="Task_Compare" targetRef="Task_StoreySummary" />
+    <bpmn:sequenceFlow id="Flow_t16" sourceRef="Task_StoreySummary" targetRef="Task_Export" />
+    <bpmn:sequenceFlow id="Flow_t13" sourceRef="Task_Recalc" targetRef="Task_Compare" />
+    <bpmn:association id="Association_Validation" associationDirection="One" sourceRef="DataObjectReference_Validation" targetRef="Gateway_DataValid" />
+  </bpmn:process>
+  <bpmn:process id="Process_Info" isExecutable="false">
+    <bpmn:intermediateCatchEvent id="Event_ReturnIssues" name="Return issues to&#10;model author">
+      <bpmn:messageEventDefinition id="MessageEventDefinition_Event_ReturnIssues" />
+    </bpmn:intermediateCatchEvent>
+    <bpmn:dataObjectReference id="DataObjectReference_IFC" name="IFC model&#10;(original or revised)" dataObjectRef="DataObject_DataObjectReference_IFC" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_IFC" />
+    <bpmn:dataObjectReference id="DataObjectReference_Issues" name="List of unresolved&#10;data issues" dataObjectRef="DataObject_DataObjectReference_Issues" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_Issues" />
+    <bpmn:dataObjectReference id="DataObjectReference_RoomTable" name="Room table&#10;(with IFC GUID)" dataObjectRef="DataObject_DataObjectReference_RoomTable">
+      <bpmn:categoryValueRef>CategoryValue_0jhj2id</bpmn:categoryValueRef>
+    </bpmn:dataObjectReference>
+    <bpmn:dataObject id="DataObject_DataObjectReference_RoomTable" />
+    <bpmn:dataObjectReference id="DataObjectReference_StoreySummary" name="Storey&#10;summary" dataObjectRef="DataObject_DataObjectReference_StoreySummary">
+      <bpmn:categoryValueRef>CategoryValue_0jhj2id</bpmn:categoryValueRef>
+    </bpmn:dataObjectReference>
+    <bpmn:dataObject id="DataObject_DataObjectReference_StoreySummary" />
+    <bpmn:dataObjectReference id="DataObjectReference_ScenarioComp" name="Scenario&#10;comparison" dataObjectRef="DataObject_DataObjectReference_ScenarioComp">
+      <bpmn:categoryValueRef>CategoryValue_0jhj2id</bpmn:categoryValueRef>
+    </bpmn:dataObjectReference>
+    <bpmn:dataObject id="DataObject_DataObjectReference_ScenarioComp" />
+  </bpmn:process>
+  <bpmn:category id="Category_1uwrr2l">
+    <bpmn:categoryValue id="CategoryValue_0jhj2id" />
+  </bpmn:category>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Tool">
+    <bpmndi:BPMNPlane id="BPMNDiagram_Tool_plane" bpmnElement="Collaboration_Tool">
+      <bpmndi:BPMNShape id="Participant_Pref_di" bpmnElement="Participant_Pref" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1780" height="190" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_RoomUse_di" bpmnElement="DataObjectReference_RoomUse">
+        <dc:Bounds x="442" y="190" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="424" y="127" width="72" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_Corrections_di" bpmnElement="DataObjectReference_Corrections">
+        <dc:Bounds x="782" y="190" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="758" y="140" width="84" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_Validation_di" bpmnElement="DataObjectReference_Validation">
+        <dc:Bounds x="902" y="190" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="876" y="127" width="88" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_BR18_di" bpmnElement="DataObjectReference_BR18">
+        <dc:Bounds x="1012" y="190" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="997" y="140" width="67" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_Scenario_di" bpmnElement="DataObjectReference_Scenario">
+        <dc:Bounds x="1342" y="190" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1314" y="140" width="92" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_Reporting_di" bpmnElement="DataObjectReference_Reporting">
+        <dc:Bounds x="1632" y="190" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1590" y="127" width="120" height="53" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Participant_Tool_di" bpmnElement="Participant_Tool" isHorizontal="true">
+        <dc:Bounds x="160" y="270" width="1780" height="410" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_Tool_di" bpmnElement="StartEvent_Tool">
+        <dc:Bounds x="212" y="442" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="198" y="493" width="65" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_Tool_di" bpmnElement="EndEvent_Tool">
+        <dc:Bounds x="1820" y="442" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1807" y="502" width="62" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_OpenIFC_di" bpmnElement="Task_OpenIFC">
+        <dc:Bounds x="290" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ExtractRooms_di" bpmnElement="Task_ExtractRooms">
+        <dc:Bounds x="410" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ReadFloorArea_di" bpmnElement="Task_ReadFloorArea">
+        <dc:Bounds x="530" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_AssociateWindows_di" bpmnElement="Task_AssociateWindows">
+        <dc:Bounds x="650" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_GlassArea_di" bpmnElement="Task_GlassArea">
+        <dc:Bounds x="770" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_DataValid_di" bpmnElement="Gateway_DataValid" isMarkerVisible="true">
+        <dc:Bounds x="895" y="435" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="932" y="502" width="54" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Calculate_di" bpmnElement="Task_Calculate">
+        <dc:Bounds x="980" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Rank_di" bpmnElement="Task_Rank">
+        <dc:Bounds x="1100" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_Scenario_di" bpmnElement="Gateway_Scenario" isMarkerVisible="true">
+        <dc:Bounds x="1225" y="435" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1228" y="491" width="44" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_StoreySummary_di" bpmnElement="Task_StoreySummary">
+        <dc:Bounds x="1570" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Export_di" bpmnElement="Task_Export">
+        <dc:Bounds x="1690" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_LogIssue_di" bpmnElement="Task_LogIssue">
+        <dc:Bounds x="870" y="540" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Recalc_di" bpmnElement="Task_Recalc">
+        <dc:Bounds x="1310" y="310" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Compare_di" bpmnElement="Task_Compare">
+        <dc:Bounds x="1440" y="310" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_t1_di" bpmnElement="Flow_t1">
+        <di:waypoint x="248" y="460" />
+        <di:waypoint x="290" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t17_di" bpmnElement="Flow_t17">
+        <di:waypoint x="1790" y="460" />
+        <di:waypoint x="1820" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t2_di" bpmnElement="Flow_t2">
+        <di:waypoint x="390" y="460" />
+        <di:waypoint x="410" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t3_di" bpmnElement="Flow_t3">
+        <di:waypoint x="510" y="460" />
+        <di:waypoint x="530" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t4_di" bpmnElement="Flow_t4">
+        <di:waypoint x="630" y="460" />
+        <di:waypoint x="650" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t5_di" bpmnElement="Flow_t5">
+        <di:waypoint x="750" y="460" />
+        <di:waypoint x="770" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t6_di" bpmnElement="Flow_t6">
+        <di:waypoint x="870" y="460" />
+        <di:waypoint x="895" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t7_di" bpmnElement="Flow_t7">
+        <di:waypoint x="945" y="460" />
+        <di:waypoint x="980" y="460" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="953" y="464" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t8_di" bpmnElement="Flow_t8">
+        <di:waypoint x="920" y="485" />
+        <di:waypoint x="920" y="540" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="900" y="502" width="13" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t9_di" bpmnElement="Flow_t9">
+        <di:waypoint x="1080" y="460" />
+        <di:waypoint x="1100" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t10_di" bpmnElement="Flow_t10">
+        <di:waypoint x="970" y="580" />
+        <di:waypoint x="1150" y="580" />
+        <di:waypoint x="1150" y="500" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t11_di" bpmnElement="Flow_t11">
+        <di:waypoint x="1200" y="460" />
+        <di:waypoint x="1225" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t12_di" bpmnElement="Flow_t12">
+        <di:waypoint x="1250" y="435" />
+        <di:waypoint x="1250" y="350" />
+        <di:waypoint x="1310" y="350" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1258" y="390" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t15_di" bpmnElement="Flow_t15">
+        <di:waypoint x="1275" y="460" />
+        <di:waypoint x="1570" y="460" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1286" y="442" width="13" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t14_di" bpmnElement="Flow_t14">
+        <di:waypoint x="1540" y="350" />
+        <di:waypoint x="1600" y="350" />
+        <di:waypoint x="1600" y="420" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t16_di" bpmnElement="Flow_t16">
+        <di:waypoint x="1670" y="460" />
+        <di:waypoint x="1690" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_t13_di" bpmnElement="Flow_t13">
+        <di:waypoint x="1410" y="350" />
+        <di:waypoint x="1440" y="350" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Association_Validation_di" bpmnElement="Association_Validation">
+        <di:waypoint x="920" y="240" />
+        <di:waypoint x="920" y="435" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Participant_Info_di" bpmnElement="Participant_Info" isHorizontal="true">
+        <dc:Bounds x="160" y="680" width="1780" height="180" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_ReturnIssues_di" bpmnElement="Event_ReturnIssues">
+        <dc:Bounds x="902" y="720" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="880" y="761" width="80" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_IFC_di" bpmnElement="DataObjectReference_IFC">
+        <dc:Bounds x="322" y="720" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="293" y="777" width="95" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_Issues_di" bpmnElement="DataObjectReference_Issues">
+        <dc:Bounds x="802" y="720" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="777" y="777" width="87" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_RoomTable_di" bpmnElement="DataObjectReference_RoomTable">
+        <dc:Bounds x="1632" y="720" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1611" y="777" width="79" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_StoreySummary_di" bpmnElement="DataObjectReference_StoreySummary">
+        <dc:Bounds x="1722" y="720" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1717" y="777" width="46" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_ScenarioComp_di" bpmnElement="DataObjectReference_ScenarioComp">
+        <dc:Bounds x="1812" y="720" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1802" y="777" width="57" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_PerRoom_di" bpmnElement="Group_PerRoom">
+        <dc:Bounds x="515" y="392" width="575" height="248" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="523" y="396" width="114" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Group_Outputs_di" bpmnElement="Group_Outputs">
+        <dc:Bounds x="1590" y="700" width="290" height="135" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="DataInputAssociation_t6_di" bpmnElement="DataInputAssociation_t6">
+        <di:waypoint x="340" y="720" />
+        <di:waypoint x="340" y="500" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_t1_di" bpmnElement="DataInputAssociation_t1">
+        <di:waypoint x="460" y="240" />
+        <di:waypoint x="460" y="420" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_t2_di" bpmnElement="DataInputAssociation_t2">
+        <di:waypoint x="800" y="240" />
+        <di:waypoint x="800" y="420" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_t3_di" bpmnElement="DataInputAssociation_t3">
+        <di:waypoint x="1030" y="240" />
+        <di:waypoint x="1030" y="420" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_t5_di" bpmnElement="DataInputAssociation_t5">
+        <di:waypoint x="1650" y="240" />
+        <di:waypoint x="1650" y="420" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_t2_di" bpmnElement="DataOutputAssociation_t2">
+        <di:waypoint x="1715" y="500" />
+        <di:waypoint x="1715" y="660" />
+        <di:waypoint x="1650" y="660" />
+        <di:waypoint x="1650" y="720" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_t3_di" bpmnElement="DataOutputAssociation_t3">
+        <di:waypoint x="1740" y="500" />
+        <di:waypoint x="1740" y="720" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_t4_di" bpmnElement="DataOutputAssociation_t4">
+        <di:waypoint x="1765" y="500" />
+        <di:waypoint x="1765" y="660" />
+        <di:waypoint x="1830" y="660" />
+        <di:waypoint x="1830" y="720" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_t1_di" bpmnElement="DataOutputAssociation_t1">
+        <di:waypoint x="870" y="580" />
+        <di:waypoint x="820" y="580" />
+        <di:waypoint x="820" y="720" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_t4_di" bpmnElement="DataInputAssociation_t4">
+        <di:waypoint x="1360" y="240" />
+        <di:waypoint x="1360" y="310" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="MessageFlow_Issues_di" bpmnElement="MessageFlow_Issues">
+        <di:waypoint x="920" y="620" />
+        <di:waypoint x="920" y="720" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
