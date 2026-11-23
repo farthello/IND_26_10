@@ -1,0 +1,1984 @@
+{
+  "calls": [
+    {
+      "call_index": 1,
+      "inputs": {
+        "space": {
+          "id": 230,
+          "type": "IfcSpace",
+          "global_id": "3rliqOKKr3tuMnBuEs1y7L",
+          "name": "65"
+        }
+      },
+      "status": "success",
+      "output": 104.863069999998
+    },
+    {
+      "call_index": 2,
+      "inputs": {
+        "space": {
+          "id": 302,
+          "type": "IfcSpace",
+          "global_id": "3rliqOKKr3tuMnBuEs1y7M",
+          "name": "66"
+        }
+      },
+      "status": "success",
+      "output": 100.072160000005
+    },
+    {
+      "call_index": 3,
+      "inputs": {
+        "space": {
+          "id": 346,
+          "type": "IfcSpace",
+          "global_id": "3rliqOKKr3tuMnBuEs1y7B",
+          "name": "67"
+        }
+      },
+      "status": "success",
+      "output": 103.015249999998
+    },
+    {
+      "call_index": 4,
+      "inputs": {
+        "space": {
+          "id": 391,
+          "type": "IfcSpace",
+          "global_id": "3rliqOKKr3tuMnBuEs1y7C",
+          "name": "68"
+        }
+      },
+      "status": "success",
+      "output": 131.504769999997
+    },
+    {
+      "call_index": 5,
+      "inputs": {
+        "space": {
+          "id": 440,
+          "type": "IfcSpace",
+          "global_id": "3rliqOKKr3tuMnBuEs1y71",
+          "name": "69"
+        }
+      },
+      "status": "success",
+      "output": 23.0287999999998
+    },
+    {
+      "call_index": 6,
+      "inputs": {
+        "space": {
+          "id": 489,
+          "type": "IfcSpace",
+          "global_id": "3rliqOKKr3tuMnBuEs1y72",
+          "name": "70"
+        }
+      },
+      "status": "success",
+      "output": 22.539499999998
+    },
+    {
+      "call_index": 7,
+      "inputs": {
+        "space": {
+          "id": 615,
+          "type": "IfcSpace",
+          "global_id": "0szTvev_X5FwVKWKdsFcbN",
+          "name": "71"
+        }
+      },
+      "status": "success",
+      "output": 343.367024999997
+    },
+    {
+      "call_index": 8,
+      "inputs": {
+        "space": {
+          "id": 684,
+          "type": "IfcSpace",
+          "global_id": "25zi1S6Vf1YAFNxTmWopyv",
+          "name": "72"
+        }
+      },
+      "status": "success",
+      "output": 245.378649999999
+    },
+    {
+      "call_index": 9,
+      "inputs": {
+        "space": {
+          "id": 742,
+          "type": "IfcSpace",
+          "global_id": "25zi1S6Vf1YAFNxTmWopz4",
+          "name": "73"
+        }
+      },
+      "status": "success",
+      "output": 251.741499999999
+    },
+    {
+      "call_index": 10,
+      "inputs": {
+        "space": {
+          "id": 846,
+          "type": "IfcSpace",
+          "global_id": "3JgxhZI9H8jxAp0umj7O5d",
+          "name": "74"
+        }
+      },
+      "status": "success",
+      "output": 324.058474999998
+    },
+    {
+      "call_index": 11,
+      "inputs": {
+        "space": {
+          "id": 907,
+          "type": "IfcSpace",
+          "global_id": "3JgxhZI9H8jxAp0umj7O1y",
+          "name": "75"
+        }
+      },
+      "status": "success",
+      "output": 102.800000000001
+    },
+    {
+      "call_index": 12,
+      "inputs": {
+        "space": {
+          "id": 944,
+          "type": "IfcSpace",
+          "global_id": "184lvBCnz40vHXKM$fVOxD",
+          "name": "76"
+        }
+      },
+      "status": "success",
+      "output": 10.4581250000002
+    },
+    {
+      "call_index": 13,
+      "inputs": {
+        "space": {
+          "id": 1004,
+          "type": "IfcSpace",
+          "global_id": "0FbjNev_DAiupX2LPEgrDd",
+          "name": "77"
+        }
+      },
+      "status": "success",
+      "output": 106.785976432757
+    },
+    {
+      "call_index": 14,
+      "inputs": {
+        "space": {
+          "id": 1063,
+          "type": "IfcSpace",
+          "global_id": "0FbjNev_DAiupX2LPEgrDU",
+          "name": "78"
+        }
+      },
+      "status": "success",
+      "output": 100.55306017879
+    },
+    {
+      "call_index": 15,
+      "inputs": {
+        "space": {
+          "id": 1115,
+          "type": "IfcSpace",
+          "global_id": "0FbjNev_DAiupX2LPEgrDT",
+          "name": "79"
+        }
+      },
+      "status": "success",
+      "output": 103.280999999999
+    },
+    {
+      "call_index": 16,
+      "inputs": {
+        "space": {
+          "id": 1175,
+          "type": "IfcSpace",
+          "global_id": "0FbjNev_DAiupX2LPEgrDN",
+          "name": "80"
+        }
+      },
+      "status": "success",
+      "output": 132.509779999996
+    },
+    {
+      "call_index": 17,
+      "inputs": {
+        "space": {
+          "id": 1226,
+          "type": "IfcSpace",
+          "global_id": "0NObDf$Mf8lOnDhYlLCrP$",
+          "name": "81"
+        }
+      },
+      "status": "success",
+      "output": 22.6923749999989
+    },
+    {
+      "call_index": 18,
+      "inputs": {
+        "space": {
+          "id": 1279,
+          "type": "IfcSpace",
+          "global_id": "0NObDf$Mf8lOnDhYlLCrPy",
+          "name": "82"
+        }
+      },
+      "status": "success",
+      "output": 22.9778000000013
+    },
+    {
+      "call_index": 19,
+      "inputs": {
+        "space": {
+          "id": 1343,
+          "type": "IfcSpace",
+          "global_id": "0_iiPuVlPCaeWAjAafSout",
+          "name": "83"
+        }
+      },
+      "status": "success",
+      "output": 114.54776409994
+    },
+    {
+      "call_index": 20,
+      "inputs": {
+        "space": {
+          "id": 1380,
+          "type": "IfcSpace",
+          "global_id": "1kUFZyiGTEggE2ORBMX1hX",
+          "name": "84"
+        }
+      },
+      "status": "success",
+      "output": 10.4581250000001
+    },
+    {
+      "call_index": 21,
+      "inputs": {
+        "space": {
+          "id": 1417,
+          "type": "IfcSpace",
+          "global_id": "3eP4vrUND2DO7l3vT$cqZS",
+          "name": "85"
+        }
+      },
+      "status": "success",
+      "output": 38.9053499999996
+    },
+    {
+      "call_index": 22,
+      "inputs": {
+        "space": {
+          "id": 1463,
+          "type": "IfcSpace",
+          "global_id": "3eP4vrUND2DO7l3vT$cqZP",
+          "name": "86"
+        }
+      },
+      "status": "success",
+      "output": 39.9138500000002
+    },
+    {
+      "call_index": 23,
+      "inputs": {
+        "space": {
+          "id": 1500,
+          "type": "IfcSpace",
+          "global_id": "3eP4vrUND2DO7l3vT$cqZQ",
+          "name": "87"
+        }
+      },
+      "status": "success",
+      "output": 39.3128999999993
+    },
+    {
+      "call_index": 24,
+      "inputs": {
+        "space": {
+          "id": 1546,
+          "type": "IfcSpace",
+          "global_id": "3eP4vrUND2DO7l3vT$cqWd",
+          "name": "88"
+        }
+      },
+      "status": "success",
+      "output": 39.6024589188636
+    },
+    {
+      "call_index": 25,
+      "inputs": {
+        "space": {
+          "id": 1592,
+          "type": "IfcSpace",
+          "global_id": "0bOpAry4T3e8rOmv14uUlD",
+          "name": "89"
+        }
+      },
+      "status": "success",
+      "output": 153.839999999998
+    },
+    {
+      "call_index": 26,
+      "inputs": {
+        "space": {
+          "id": 1629,
+          "type": "IfcSpace",
+          "global_id": "3UVod0Paz0nRz4W52EmhYF",
+          "name": "90"
+        }
+      },
+      "status": "success",
+      "output": 10.4581249999996
+    },
+    {
+      "call_index": 27,
+      "inputs": {
+        "space": {
+          "id": 1680,
+          "type": "IfcSpace",
+          "global_id": "3UVod0Paz0nRz4W52EmhY4",
+          "name": "91"
+        }
+      },
+      "status": "success",
+      "output": 58.5833250000002
+    },
+    {
+      "call_index": 28,
+      "inputs": {
+        "space": {
+          "id": 1731,
+          "type": "IfcSpace",
+          "global_id": "0CtZDVnWX30QVj$Ag0zGsi",
+          "name": "92"
+        }
+      },
+      "status": "success",
+      "output": 23.1054001787831
+    },
+    {
+      "call_index": 29,
+      "inputs": {
+        "space": {
+          "id": 1784,
+          "type": "IfcSpace",
+          "global_id": "0CtZDVnWX30QVj$Ag0zGsl",
+          "name": "93"
+        }
+      },
+      "status": "success",
+      "output": 22.9777999999989
+    },
+    {
+      "call_index": 30,
+      "inputs": {
+        "space": {
+          "id": 1821,
+          "type": "IfcSpace",
+          "global_id": "20OHSyv_v63OSUhoM8lIV4",
+          "name": "94"
+        }
+      },
+      "status": "success",
+      "output": 92.1599999999995
+    },
+    {
+      "call_index": 31,
+      "inputs": {
+        "space": {
+          "id": 1879,
+          "type": "IfcSpace",
+          "global_id": "1LhcrbjtD78w9wyGDfzvd3",
+          "name": "95"
+        }
+      },
+      "status": "success",
+      "output": 105.869459999993
+    },
+    {
+      "call_index": 32,
+      "inputs": {
+        "space": {
+          "id": 1939,
+          "type": "IfcSpace",
+          "global_id": "1LhcrbjtD78w9wyGDfzvcy",
+          "name": "96"
+        }
+      },
+      "status": "success",
+      "output": 100.425460000004
+    },
+    {
+      "call_index": 33,
+      "inputs": {
+        "space": {
+          "id": 1995,
+          "type": "IfcSpace",
+          "global_id": "1LhcrbjtD78w9wyGDfzvcv",
+          "name": "97"
+        }
+      },
+      "status": "success",
+      "output": 103.933721012677
+    },
+    {
+      "call_index": 34,
+      "inputs": {
+        "space": {
+          "id": 2055,
+          "type": "IfcSpace",
+          "global_id": "1LhcrbjtD78w9wyGDfzvcw",
+          "name": "98"
+        }
+      },
+      "status": "success",
+      "output": 132.509779999998
+    },
+    {
+      "call_index": 35,
+      "inputs": {
+        "space": {
+          "id": 2125,
+          "type": "IfcSpace",
+          "global_id": "17PxF$FIf9DebAAs_gshTU",
+          "name": "99"
+        }
+      },
+      "status": "success",
+      "output": 240.57045821347
+    },
+    {
+      "call_index": 36,
+      "inputs": {
+        "space": {
+          "id": 2185,
+          "type": "IfcSpace",
+          "global_id": "17PxF$FIf9DebAAs_gshSl",
+          "name": "100"
+        }
+      },
+      "status": "success",
+      "output": 197.692500000003
+    },
+    {
+      "call_index": 37,
+      "inputs": {
+        "space": {
+          "id": 2242,
+          "type": "IfcSpace",
+          "global_id": "17PxF$FIf9DebAAs_gshSi",
+          "name": "101"
+        }
+      },
+      "status": "success",
+      "output": 116.872500000001
+    },
+    {
+      "call_index": 38,
+      "inputs": {
+        "space": {
+          "id": 2326,
+          "type": "IfcSpace",
+          "global_id": "17PxF$FIf9DebAAs_gshSn",
+          "name": "102"
+        }
+      },
+      "status": "success",
+      "output": 118.073640000002
+    },
+    {
+      "call_index": 39,
+      "inputs": {
+        "space": {
+          "id": 2379,
+          "type": "IfcSpace",
+          "global_id": "2vUF1BEtzBCQ98MiY$TM3P",
+          "name": "103"
+        }
+      },
+      "status": "success",
+      "output": 246.319427032599
+    },
+    {
+      "call_index": 40,
+      "inputs": {
+        "space": {
+          "id": 2495,
+          "type": "IfcSpace",
+          "global_id": "3PElZjL4HENfShg_hHLao9",
+          "name": "104"
+        }
+      },
+      "status": "success",
+      "output": 119.213688807306
+    },
+    {
+      "call_index": 41,
+      "inputs": {
+        "space": {
+          "id": 2532,
+          "type": "IfcSpace",
+          "global_id": "0qATZPjgj3tf$dKMf3CQ3Z",
+          "name": "105"
+        }
+      },
+      "status": "success",
+      "output": 10.4581250000001
+    },
+    {
+      "call_index": 42,
+      "inputs": {
+        "space": {
+          "id": 2591,
+          "type": "IfcSpace",
+          "global_id": "1VN7R6GrD8I9Vj2NLFEMmC",
+          "name": "106"
+        }
+      },
+      "status": "success",
+      "output": 104.671967670655
+    },
+    {
+      "call_index": 43,
+      "inputs": {
+        "space": {
+          "id": 2651,
+          "type": "IfcSpace",
+          "global_id": "1VN7R6GrD8I9Vj2NLFEMm9",
+          "name": "107"
+        }
+      },
+      "status": "success",
+      "output": 100.331209432135
+    },
+    {
+      "call_index": 44,
+      "inputs": {
+        "space": {
+          "id": 2707,
+          "type": "IfcSpace",
+          "global_id": "1VN7R6GrD8I9Vj2NLFEMmA",
+          "name": "108"
+        }
+      },
+      "status": "success",
+      "output": 105.252931383789
+    },
+    {
+      "call_index": 45,
+      "inputs": {
+        "space": {
+          "id": 2796,
+          "type": "IfcSpace",
+          "global_id": "1VN7R6GrD8I9Vj2NLFEMm7",
+          "name": "109"
+        }
+      },
+      "status": "success",
+      "output": 50.9515360712889
+    },
+    {
+      "call_index": 46,
+      "inputs": {
+        "space": {
+          "id": 2847,
+          "type": "IfcSpace",
+          "global_id": "1VN7R6GrD8I9Vj2NLFEMm0",
+          "name": "110"
+        }
+      },
+      "status": "success",
+      "output": 22.1261097160631
+    },
+    {
+      "call_index": 47,
+      "inputs": {
+        "space": {
+          "id": 2899,
+          "type": "IfcSpace",
+          "global_id": "1VN7R6GrD8I9Vj2NLFEMmT",
+          "name": "111"
+        }
+      },
+      "status": "success",
+      "output": 22.1261097160652
+    },
+    {
+      "call_index": 48,
+      "inputs": {
+        "space": {
+          "id": 2947,
+          "type": "IfcSpace",
+          "global_id": "05_5Sa0Bz0FBp2SiEUZLQd",
+          "name": "114"
+        }
+      },
+      "status": "success",
+      "output": 30.0039049999985
+    },
+    {
+      "call_index": 49,
+      "inputs": {
+        "space": {
+          "id": 3097,
+          "type": "IfcSpace",
+          "global_id": "2NodU0e1LAjhttzs10KQYX",
+          "name": "115"
+        }
+      },
+      "status": "success",
+      "output": 231.986869224697
+    },
+    {
+      "call_index": 50,
+      "inputs": {
+        "space": {
+          "id": 3404,
+          "type": "IfcSpace",
+          "global_id": "2NodU0e1LAjhttzs10KQXo",
+          "name": "116"
+        }
+      },
+      "status": "success",
+      "output": 240.888850000006
+    },
+    {
+      "call_index": 51,
+      "inputs": {
+        "space": {
+          "id": 3441,
+          "type": "IfcSpace",
+          "global_id": "2NodU0e1LAjhttzs10KQXn",
+          "name": "117"
+        }
+      },
+      "status": "success",
+      "output": 36.4396549999971
+    },
+    {
+      "call_index": 52,
+      "inputs": {
+        "space": {
+          "id": 4009,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9RT",
+          "name": "118"
+        }
+      },
+      "status": "success",
+      "output": 389.694855
+    },
+    {
+      "call_index": 53,
+      "inputs": {
+        "space": {
+          "id": 4046,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9RN",
+          "name": "119"
+        }
+      },
+      "status": "success",
+      "output": 36.4396549999971
+    },
+    {
+      "call_index": 54,
+      "inputs": {
+        "space": {
+          "id": 4083,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9RK",
+          "name": "120"
+        }
+      },
+      "status": "success",
+      "output": 37.4288349999996
+    },
+    {
+      "call_index": 55,
+      "inputs": {
+        "space": {
+          "id": 4120,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Si",
+          "name": "121"
+        }
+      },
+      "status": "success",
+      "output": 18.12775
+    },
+    {
+      "call_index": 56,
+      "inputs": {
+        "space": {
+          "id": 4157,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9SX",
+          "name": "122"
+        }
+      },
+      "status": "success",
+      "output": 18.12775
+    },
+    {
+      "call_index": 57,
+      "inputs": {
+        "space": {
+          "id": 4194,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Sc",
+          "name": "123"
+        }
+      },
+      "status": "success",
+      "output": 18.12775
+    },
+    {
+      "call_index": 58,
+      "inputs": {
+        "space": {
+          "id": 4231,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9S$",
+          "name": "124"
+        }
+      },
+      "status": "success",
+      "output": 6.91246000000007
+    },
+    {
+      "call_index": 59,
+      "inputs": {
+        "space": {
+          "id": 4268,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9S1",
+          "name": "125"
+        }
+      },
+      "status": "success",
+      "output": 5.11290000000023
+    },
+    {
+      "call_index": 60,
+      "inputs": {
+        "space": {
+          "id": 4305,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9SU",
+          "name": "126"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000012
+    },
+    {
+      "call_index": 61,
+      "inputs": {
+        "space": {
+          "id": 4342,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9SJ",
+          "name": "127"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000009
+    },
+    {
+      "call_index": 62,
+      "inputs": {
+        "space": {
+          "id": 4379,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9SG",
+          "name": "128"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999992
+    },
+    {
+      "call_index": 63,
+      "inputs": {
+        "space": {
+          "id": 4416,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9SL",
+          "name": "129"
+        }
+      },
+      "status": "success",
+      "output": 2.1878999999999
+    },
+    {
+      "call_index": 64,
+      "inputs": {
+        "space": {
+          "id": 4453,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Tg",
+          "name": "130"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999991
+    },
+    {
+      "call_index": 65,
+      "inputs": {
+        "space": {
+          "id": 4490,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Tl",
+          "name": "131"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000007
+    },
+    {
+      "call_index": 66,
+      "inputs": {
+        "space": {
+          "id": 4527,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Ti",
+          "name": "132"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000009
+    },
+    {
+      "call_index": 67,
+      "inputs": {
+        "space": {
+          "id": 4564,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9TX",
+          "name": "133"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000011
+    },
+    {
+      "call_index": 68,
+      "inputs": {
+        "space": {
+          "id": 4601,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Tc",
+          "name": "134"
+        }
+      },
+      "status": "success",
+      "output": 2.1879000000001
+    },
+    {
+      "call_index": 69,
+      "inputs": {
+        "space": {
+          "id": 4638,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Tx",
+          "name": "135"
+        }
+      },
+      "status": "success",
+      "output": 2.1879000000001
+    },
+    {
+      "call_index": 70,
+      "inputs": {
+        "space": {
+          "id": 4675,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Tz",
+          "name": "136"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999997
+    },
+    {
+      "call_index": 71,
+      "inputs": {
+        "space": {
+          "id": 4712,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9To",
+          "name": "137"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999997
+    },
+    {
+      "call_index": 72,
+      "inputs": {
+        "space": {
+          "id": 4749,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9T2",
+          "name": "138"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999997
+    },
+    {
+      "call_index": 73,
+      "inputs": {
+        "space": {
+          "id": 4786,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9T7",
+          "name": "139"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999996
+    },
+    {
+      "call_index": 74,
+      "inputs": {
+        "space": {
+          "id": 4823,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9T4",
+          "name": "140"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999991
+    },
+    {
+      "call_index": 75,
+      "inputs": {
+        "space": {
+          "id": 4860,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9TP",
+          "name": "141"
+        }
+      },
+      "status": "success",
+      "output": 2.1878999999999
+    },
+    {
+      "call_index": 76,
+      "inputs": {
+        "space": {
+          "id": 4897,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9TU",
+          "name": "142"
+        }
+      },
+      "status": "success",
+      "output": 2.1878999999999
+    },
+    {
+      "call_index": 77,
+      "inputs": {
+        "space": {
+          "id": 4934,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9TJ",
+          "name": "143"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000008
+    },
+    {
+      "call_index": 78,
+      "inputs": {
+        "space": {
+          "id": 4971,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9TG",
+          "name": "144"
+        }
+      },
+      "status": "success",
+      "output": 2.1879000000001
+    },
+    {
+      "call_index": 79,
+      "inputs": {
+        "space": {
+          "id": 5008,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Ug",
+          "name": "145"
+        }
+      },
+      "status": "success",
+      "output": 5.11289999999996
+    },
+    {
+      "call_index": 80,
+      "inputs": {
+        "space": {
+          "id": 5045,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Uy",
+          "name": "146"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000009
+    },
+    {
+      "call_index": 81,
+      "inputs": {
+        "space": {
+          "id": 5082,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Us",
+          "name": "147"
+        }
+      },
+      "status": "success",
+      "output": 36.6537499999999
+    },
+    {
+      "call_index": 82,
+      "inputs": {
+        "space": {
+          "id": 5119,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9UB",
+          "name": "148"
+        }
+      },
+      "status": "success",
+      "output": 36.6537500000001
+    },
+    {
+      "call_index": 83,
+      "inputs": {
+        "space": {
+          "id": 5156,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9U1",
+          "name": "149"
+        }
+      },
+      "status": "success",
+      "output": 38.6973499999997
+    },
+    {
+      "call_index": 84,
+      "inputs": {
+        "space": {
+          "id": 5193,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9UR",
+          "name": "150"
+        }
+      },
+      "status": "success",
+      "output": 37.4288350000005
+    },
+    {
+      "call_index": 85,
+      "inputs": {
+        "space": {
+          "id": 5230,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9UT",
+          "name": "151"
+        }
+      },
+      "status": "success",
+      "output": 36.6537500000001
+    },
+    {
+      "call_index": 86,
+      "inputs": {
+        "space": {
+          "id": 5267,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9UI",
+          "name": "152"
+        }
+      },
+      "status": "success",
+      "output": 36.65375
+    },
+    {
+      "call_index": 87,
+      "inputs": {
+        "space": {
+          "id": 5304,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9UN",
+          "name": "153"
+        }
+      },
+      "status": "success",
+      "output": 36.653750000001
+    },
+    {
+      "call_index": 88,
+      "inputs": {
+        "space": {
+          "id": 5484,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Vf",
+          "name": "154"
+        }
+      },
+      "status": "success",
+      "output": 275.648991000002
+    },
+    {
+      "call_index": 89,
+      "inputs": {
+        "space": {
+          "id": 5680,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Vk",
+          "name": "155"
+        }
+      },
+      "status": "success",
+      "output": 215.988640999976
+    },
+    {
+      "call_index": 90,
+      "inputs": {
+        "space": {
+          "id": 5717,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9VZ",
+          "name": "156"
+        }
+      },
+      "status": "success",
+      "output": 34.7332849999989
+    },
+    {
+      "call_index": 91,
+      "inputs": {
+        "space": {
+          "id": 5754,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Vy",
+          "name": "157"
+        }
+      },
+      "status": "success",
+      "output": 36.4896525000006
+    },
+    {
+      "call_index": 92,
+      "inputs": {
+        "space": {
+          "id": 5813,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9V2",
+          "name": "158"
+        }
+      },
+      "status": "success",
+      "output": 211.724077879394
+    },
+    {
+      "call_index": 93,
+      "inputs": {
+        "space": {
+          "id": 5869,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9V7",
+          "name": "159"
+        }
+      },
+      "status": "success",
+      "output": 132.334070000002
+    },
+    {
+      "call_index": 94,
+      "inputs": {
+        "space": {
+          "id": 5906,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9V4",
+          "name": "160"
+        }
+      },
+      "status": "success",
+      "output": 35.4191700000004
+    },
+    {
+      "call_index": 95,
+      "inputs": {
+        "space": {
+          "id": 5974,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9VP",
+          "name": "161"
+        }
+      },
+      "status": "success",
+      "output": 36.0085900000019
+    },
+    {
+      "call_index": 96,
+      "inputs": {
+        "space": {
+          "id": 6017,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9VU",
+          "name": "162"
+        }
+      },
+      "status": "success",
+      "output": 34.1467649999998
+    },
+    {
+      "call_index": 97,
+      "inputs": {
+        "space": {
+          "id": 6054,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9VG",
+          "name": "163"
+        }
+      },
+      "status": "success",
+      "output": 36.1874950000009
+    },
+    {
+      "call_index": 98,
+      "inputs": {
+        "space": {
+          "id": 6091,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Gl",
+          "name": "164"
+        }
+      },
+      "status": "success",
+      "output": 2.17854999999999
+    },
+    {
+      "call_index": 99,
+      "inputs": {
+        "space": {
+          "id": 6128,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Gi",
+          "name": "165"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 100,
+      "inputs": {
+        "space": {
+          "id": 6165,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9GX",
+          "name": "166"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000001
+    },
+    {
+      "call_index": 101,
+      "inputs": {
+        "space": {
+          "id": 6202,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Gc",
+          "name": "167"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 102,
+      "inputs": {
+        "space": {
+          "id": 6239,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Gx",
+          "name": "168"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000001
+    },
+    {
+      "call_index": 103,
+      "inputs": {
+        "space": {
+          "id": 6276,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Gu",
+          "name": "169"
+        }
+      },
+      "status": "success",
+      "output": 2.1879
+    },
+    {
+      "call_index": 104,
+      "inputs": {
+        "space": {
+          "id": 6313,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Gz",
+          "name": "170"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 105,
+      "inputs": {
+        "space": {
+          "id": 6350,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Go",
+          "name": "171"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000001
+    },
+    {
+      "call_index": 106,
+      "inputs": {
+        "space": {
+          "id": 6387,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Gt",
+          "name": "172"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 107,
+      "inputs": {
+        "space": {
+          "id": 6424,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9Gq",
+          "name": "173"
+        }
+      },
+      "status": "success",
+      "output": 2.17855
+    },
+    {
+      "call_index": 108,
+      "inputs": {
+        "space": {
+          "id": 6461,
+          "type": "IfcSpace",
+          "global_id": "0KQ815tjDESx3p0r6Lr9G9",
+          "name": "174"
+        }
+      },
+      "status": "success",
+      "output": 5.10255000000001
+    },
+    {
+      "call_index": 109,
+      "inputs": {
+        "space": {
+          "id": 6498,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapEF",
+          "name": "175"
+        }
+      },
+      "status": "success",
+      "output": 68.1714000000004
+    },
+    {
+      "call_index": 110,
+      "inputs": {
+        "space": {
+          "id": 6535,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapEA",
+          "name": "176"
+        }
+      },
+      "status": "success",
+      "output": 121.110000000001
+    },
+    {
+      "call_index": 111,
+      "inputs": {
+        "space": {
+          "id": 6572,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapEL",
+          "name": "177"
+        }
+      },
+      "status": "success",
+      "output": 52.7379000000002
+    },
+    {
+      "call_index": 112,
+      "inputs": {
+        "space": {
+          "id": 6609,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapEG",
+          "name": "178"
+        }
+      },
+      "status": "success",
+      "output": 33.6905999999995
+    },
+    {
+      "call_index": 113,
+      "inputs": {
+        "space": {
+          "id": 6646,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapEP",
+          "name": "179"
+        }
+      },
+      "status": "success",
+      "output": 33.6905999999999
+    },
+    {
+      "call_index": 114,
+      "inputs": {
+        "space": {
+          "id": 6683,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFa",
+          "name": "180"
+        }
+      },
+      "status": "success",
+      "output": 33.6905999999999
+    },
+    {
+      "call_index": 115,
+      "inputs": {
+        "space": {
+          "id": 6720,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFd",
+          "name": "181"
+        }
+      },
+      "status": "success",
+      "output": 33.6905999999988
+    },
+    {
+      "call_index": 116,
+      "inputs": {
+        "space": {
+          "id": 6757,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFY",
+          "name": "182"
+        }
+      },
+      "status": "success",
+      "output": 199.443599999985
+    },
+    {
+      "call_index": 117,
+      "inputs": {
+        "space": {
+          "id": 6794,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFj",
+          "name": "183"
+        }
+      },
+      "status": "success",
+      "output": 59.2195999999958
+    },
+    {
+      "call_index": 118,
+      "inputs": {
+        "space": {
+          "id": 6837,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFh",
+          "name": "184"
+        }
+      },
+      "status": "success",
+      "output": 171.972369075661
+    },
+    {
+      "call_index": 119,
+      "inputs": {
+        "space": {
+          "id": 6874,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFs",
+          "name": "185"
+        }
+      },
+      "status": "success",
+      "output": 25.3637999999997
+    },
+    {
+      "call_index": 120,
+      "inputs": {
+        "space": {
+          "id": 6911,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFy",
+          "name": "186"
+        }
+      },
+      "status": "success",
+      "output": 19.7607000000011
+    },
+    {
+      "call_index": 121,
+      "inputs": {
+        "space": {
+          "id": 6948,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapF5",
+          "name": "187"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 122,
+      "inputs": {
+        "space": {
+          "id": 6985,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapF0",
+          "name": "188"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 123,
+      "inputs": {
+        "space": {
+          "id": 7022,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapF3",
+          "name": "189"
+        }
+      },
+      "status": "success",
+      "output": 2.18790000000001
+    },
+    {
+      "call_index": 124,
+      "inputs": {
+        "space": {
+          "id": 7059,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFE",
+          "name": "190"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 125,
+      "inputs": {
+        "space": {
+          "id": 7096,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapF9",
+          "name": "191"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 126,
+      "inputs": {
+        "space": {
+          "id": 7133,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFK",
+          "name": "192"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 127,
+      "inputs": {
+        "space": {
+          "id": 7170,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFN",
+          "name": "193"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999999
+    },
+    {
+      "call_index": 128,
+      "inputs": {
+        "space": {
+          "id": 7207,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFI",
+          "name": "194"
+        }
+      },
+      "status": "success",
+      "output": 2.18789999999998
+    },
+    {
+      "call_index": 129,
+      "inputs": {
+        "space": {
+          "id": 7244,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFT",
+          "name": "195"
+        }
+      },
+      "status": "success",
+      "output": 2.1879
+    },
+    {
+      "call_index": 130,
+      "inputs": {
+        "space": {
+          "id": 7281,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFO",
+          "name": "196"
+        }
+      },
+      "status": "success",
+      "output": 2.1879
+    },
+    {
+      "call_index": 131,
+      "inputs": {
+        "space": {
+          "id": 7318,
+          "type": "IfcSpace",
+          "global_id": "0zNMwO4Pr2zRtktyhvapFR",
+          "name": "197"
+        }
+      },
+      "status": "success",
+      "output": 5.1129
+    },
+    {
+      "call_index": 132,
+      "inputs": {
+        "space": {
+          "id": 7355,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUPE",
+          "name": "198"
+        }
+      },
+      "status": "success",
+      "output": 19.6595849999989
+    },
+    {
+      "call_index": 133,
+      "inputs": {
+        "space": {
+          "id": 7392,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUP3",
+          "name": "199"
+        }
+      },
+      "status": "success",
+      "output": 8.89424999999961
+    },
+    {
+      "call_index": 134,
+      "inputs": {
+        "space": {
+          "id": 7429,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUP4",
+          "name": "200"
+        }
+      },
+      "status": "success",
+      "output": 8.8942499999994
+    },
+    {
+      "call_index": 135,
+      "inputs": {
+        "space": {
+          "id": 7466,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUPv",
+          "name": "201"
+        }
+      },
+      "status": "success",
+      "output": 9.24824999999978
+    },
+    {
+      "call_index": 136,
+      "inputs": {
+        "space": {
+          "id": 7514,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUP$",
+          "name": "202"
+        }
+      },
+      "status": "success",
+      "output": 9.81745926109478
+    },
+    {
+      "call_index": 137,
+      "inputs": {
+        "space": {
+          "id": 7562,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUPm",
+          "name": "203"
+        }
+      },
+      "status": "success",
+      "output": 9.81660146156207
+    },
+    {
+      "call_index": 138,
+      "inputs": {
+        "space": {
+          "id": 7606,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUPr",
+          "name": "204"
+        }
+      },
+      "status": "success",
+      "output": 9.05070000000099
+    },
+    {
+      "call_index": 139,
+      "inputs": {
+        "space": {
+          "id": 7643,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUPh",
+          "name": "205"
+        }
+      },
+      "status": "success",
+      "output": 9.6018999999999
+    },
+    {
+      "call_index": 140,
+      "inputs": {
+        "space": {
+          "id": 7680,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUPi",
+          "name": "206"
+        }
+      },
+      "status": "success",
+      "output": 9.60189999999998
+    },
+    {
+      "call_index": 141,
+      "inputs": {
+        "space": {
+          "id": 7717,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUPY",
+          "name": "207"
+        }
+      },
+      "status": "success",
+      "output": 19.6595849999998
+    },
+    {
+      "call_index": 142,
+      "inputs": {
+        "space": {
+          "id": 7754,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUUO",
+          "name": "208"
+        }
+      },
+      "status": "success",
+      "output": 6.91246000000004
+    },
+    {
+      "call_index": 143,
+      "inputs": {
+        "space": {
+          "id": 7791,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUUK",
+          "name": "209"
+        }
+      },
+      "status": "success",
+      "output": 6.50278999999999
+    },
+    {
+      "call_index": 144,
+      "inputs": {
+        "space": {
+          "id": 7828,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUU9",
+          "name": "210"
+        }
+      },
+      "status": "success",
+      "output": 19.2910274999997
+    },
+    {
+      "call_index": 145,
+      "inputs": {
+        "space": {
+          "id": 7865,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUUF",
+          "name": "211"
+        }
+      },
+      "status": "success",
+      "output": 9.60190000000004
+    },
+    {
+      "call_index": 146,
+      "inputs": {
+        "space": {
+          "id": 7902,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUU6",
+          "name": "212"
+        }
+      },
+      "status": "success",
+      "output": 6.32392000000025
+    },
+    {
+      "call_index": 147,
+      "inputs": {
+        "space": {
+          "id": 7945,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUUx",
+          "name": "213"
+        }
+      },
+      "status": "success",
+      "output": 19.0296550000003
+    },
+    {
+      "call_index": 148,
+      "inputs": {
+        "space": {
+          "id": 7982,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUUy",
+          "name": "214"
+        }
+      },
+      "status": "success",
+      "output": 7.22700000000005
+    },
+    {
+      "call_index": 149,
+      "inputs": {
+        "space": {
+          "id": 8019,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUUn",
+          "name": "215"
+        }
+      },
+      "status": "success",
+      "output": 5.39550000000028
+    },
+    {
+      "call_index": 150,
+      "inputs": {
+        "space": {
+          "id": 8056,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUUo",
+          "name": "216"
+        }
+      },
+      "status": "success",
+      "output": 5.3955000000005
+    },
+    {
+      "call_index": 151,
+      "inputs": {
+        "space": {
+          "id": 8102,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUUe",
+          "name": "217"
+        }
+      },
+      "status": "success",
+      "output": 53.2627900107413
+    },
+    {
+      "call_index": 152,
+      "inputs": {
+        "space": {
+          "id": 8139,
+          "type": "IfcSpace",
+          "global_id": "1WnrEJrkj2nwxyz5GbzUUk",
+          "name": "218"
+        }
+      },
+      "status": "success",
+      "output": 9.84401999999925
+    }
+  ],
+  "function": "get_space_area",
+  "run_id": "5f855dae5223414c86f473a1477839b2",
+  "status": "success",
+  "call_count": 152
+}

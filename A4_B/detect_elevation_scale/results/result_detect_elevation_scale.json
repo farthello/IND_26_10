@@ -1,0 +1,76 @@
+{
+  "calls": [
+    {
+      "call_index": 1,
+      "inputs": {
+        "storey_elevations": [
+          {
+            "storey": {
+              "id": 37,
+              "type": "IfcBuildingStorey",
+              "global_id": "2MDOWKpj965Bc2yiur$ooD",
+              "name": "B_00"
+            },
+            "name": "B_00",
+            "elevation": -3070.0,
+            "raw_elevation": -3070.0
+          },
+          {
+            "storey": {
+              "id": 41,
+              "type": "IfcBuildingStorey",
+              "global_id": "1bU8GWD8r5ruUWLa$84Sc3",
+              "name": "F_00"
+            },
+            "name": "F_00",
+            "elevation": 600.0,
+            "raw_elevation": 600.0
+          },
+          {
+            "storey": {
+              "id": 45,
+              "type": "IfcBuildingStorey",
+              "global_id": "2Mkeca9Y1DlR60C8zDWq9h",
+              "name": "F_01"
+            },
+            "name": "F_01",
+            "elevation": 4175.0,
+            "raw_elevation": 4175.0
+          },
+          {
+            "storey": {
+              "id": 49,
+              "type": "IfcBuildingStorey",
+              "global_id": "2gOnASipz6_PovfECdaH5J",
+              "name": "F_02"
+            },
+            "name": "F_02",
+            "elevation": 7750.0,
+            "raw_elevation": 7750.0
+          },
+          {
+            "storey": {
+              "id": 53,
+              "type": "IfcBuildingStorey",
+              "global_id": "3YivJugF1DJhI6IoOrcyTk",
+              "name": "Roof"
+            },
+            "name": "Roof",
+            "elevation": 11620.0,
+            "raw_elevation": 11620.0
+          }
+        ],
+        "space_z_range": [
+          -3.0700000000000003,
+          10.35
+        ]
+      },
+      "status": "success",
+      "output": 0.001
+    }
+  ],
+  "function": "detect_elevation_scale",
+  "run_id": "5f855dae5223414c86f473a1477839b2",
+  "status": "success",
+  "call_count": 1
+}

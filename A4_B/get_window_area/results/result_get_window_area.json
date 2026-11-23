@@ -1,0 +1,1880 @@
+{
+  "calls": [
+    {
+      "call_index": 1,
+      "inputs": {
+        "window": {
+          "id": 151371,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZDp",
+          "name": "Window type 1:Window type 1:1284612"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 2,
+      "inputs": {
+        "window": {
+          "id": 151416,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZE9",
+          "name": "Window type 1:Window type 1:1284862"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 3,
+      "inputs": {
+        "window": {
+          "id": 151441,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZBW",
+          "name": "Window type 1:Window type 1:1285015"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 4,
+      "inputs": {
+        "window": {
+          "id": 151466,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZLw",
+          "name": "Window type 1:Window type 1:1285133"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 5,
+      "inputs": {
+        "window": {
+          "id": 151491,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZNb",
+          "name": "Window type 1:Window type 1:1285266"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 6,
+      "inputs": {
+        "window": {
+          "id": 151516,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZHN",
+          "name": "Window type 1:Window type 1:1285408"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 7,
+      "inputs": {
+        "window": {
+          "id": 151541,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZJd",
+          "name": "Window type 1:Window type 1:1285520"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 8,
+      "inputs": {
+        "window": {
+          "id": 151566,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZTs",
+          "name": "Window type 1:Window type 1:1285633"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 9,
+      "inputs": {
+        "window": {
+          "id": 151591,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZSC",
+          "name": "Window type 1:Window type 1:1285755"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 10,
+      "inputs": {
+        "window": {
+          "id": 151616,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZUP",
+          "name": "Window type 1:Window type 1:1285870"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 11,
+      "inputs": {
+        "window": {
+          "id": 151641,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZOM",
+          "name": "Window type 1:Window type 1:1285985"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 12,
+      "inputs": {
+        "window": {
+          "id": 151666,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMZQf",
+          "name": "Window type 1:Window type 1:1286110"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 13,
+      "inputs": {
+        "window": {
+          "id": 151691,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWa_",
+          "name": "Window type 1:Window type 1:1286217"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 14,
+      "inputs": {
+        "window": {
+          "id": 151716,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWcd",
+          "name": "Window type 1:Window type 1:1286352"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 15,
+      "inputs": {
+        "window": {
+          "id": 151741,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWWr",
+          "name": "Window type 1:Window type 1:1286466"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 16,
+      "inputs": {
+        "window": {
+          "id": 151766,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWZU",
+          "name": "Window type 1:Window type 1:1286569"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 17,
+      "inputs": {
+        "window": {
+          "id": 151791,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWjW",
+          "name": "Window type 1:Window type 1:1286679"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 18,
+      "inputs": {
+        "window": {
+          "id": 151816,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWln",
+          "name": "Window type 1:Window type 1:1286790"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 19,
+      "inputs": {
+        "window": {
+          "id": 151841,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWfc",
+          "name": "Window type 1:Window type 1:1286929"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 20,
+      "inputs": {
+        "window": {
+          "id": 151866,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWhb",
+          "name": "Window type 1:Window type 1:1287058"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 21,
+      "inputs": {
+        "window": {
+          "id": 151891,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWrx",
+          "name": "Window type 1:Window type 1:1287180"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 22,
+      "inputs": {
+        "window": {
+          "id": 151916,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWnN",
+          "name": "Window type 1:Window type 1:1287456"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 23,
+      "inputs": {
+        "window": {
+          "id": 151941,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWpL",
+          "name": "Window type 1:Window type 1:1287586"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 24,
+      "inputs": {
+        "window": {
+          "id": 151966,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWzt",
+          "name": "Window type 1:Window type 1:1287680"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 25,
+      "inputs": {
+        "window": {
+          "id": 151991,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWyU",
+          "name": "Window type 1:Window type 1:1287785"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 26,
+      "inputs": {
+        "window": {
+          "id": 152016,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMW_s",
+          "name": "Window type 1:Window type 1:1287873"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 27,
+      "inputs": {
+        "window": {
+          "id": 152041,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWvf",
+          "name": "Window type 1:Window type 1:1287966"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 28,
+      "inputs": {
+        "window": {
+          "id": 152066,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWu2",
+          "name": "Window type 1:Window type 1:1288053"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 29,
+      "inputs": {
+        "window": {
+          "id": 152091,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWwg",
+          "name": "Window type 1:Window type 1:1288157"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 30,
+      "inputs": {
+        "window": {
+          "id": 152116,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMW50",
+          "name": "Window type 1:Window type 1:1288247"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 31,
+      "inputs": {
+        "window": {
+          "id": 152141,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMW7a",
+          "name": "Window type 1:Window type 1:1288339"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 32,
+      "inputs": {
+        "window": {
+          "id": 152166,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMW6U",
+          "name": "Window type 1:Window type 1:1288425"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 33,
+      "inputs": {
+        "window": {
+          "id": 152191,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMW19",
+          "name": "Window type 1:Window type 1:1288510"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 34,
+      "inputs": {
+        "window": {
+          "id": 152216,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMW3J",
+          "name": "Window type 1:Window type 1:1288612"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 35,
+      "inputs": {
+        "window": {
+          "id": 152241,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWDo",
+          "name": "Window type 1:Window type 1:1288709"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 36,
+      "inputs": {
+        "window": {
+          "id": 152266,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWC4",
+          "name": "Window type 1:Window type 1:1288819"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 37,
+      "inputs": {
+        "window": {
+          "id": 152291,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWEd",
+          "name": "Window type 1:Window type 1:1288912"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 38,
+      "inputs": {
+        "window": {
+          "id": 152316,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMW9J",
+          "name": "Window type 1:Window type 1:1288996"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 39,
+      "inputs": {
+        "window": {
+          "id": 152341,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMW8E",
+          "name": "Window type 1:Window type 1:1289081"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 40,
+      "inputs": {
+        "window": {
+          "id": 152366,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWAb",
+          "name": "Window type 1:Window type 1:1289170"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 41,
+      "inputs": {
+        "window": {
+          "id": 152391,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWLY",
+          "name": "Window type 1:Window type 1:1289237"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 42,
+      "inputs": {
+        "window": {
+          "id": 152416,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWMI",
+          "name": "Window type 1:Window type 1:1289445"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 43,
+      "inputs": {
+        "window": {
+          "id": 152441,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWG$",
+          "name": "Window type 1:Window type 1:1289544"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 44,
+      "inputs": {
+        "window": {
+          "id": 152466,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWJW",
+          "name": "Window type 1:Window type 1:1289623"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 45,
+      "inputs": {
+        "window": {
+          "id": 152491,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWIT",
+          "name": "Window type 1:Window type 1:1289706"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 46,
+      "inputs": {
+        "window": {
+          "id": 152516,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWT4",
+          "name": "Window type 1:Window type 1:1289779"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 47,
+      "inputs": {
+        "window": {
+          "id": 152541,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWSA",
+          "name": "Window type 1:Window type 1:1289853"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 48,
+      "inputs": {
+        "window": {
+          "id": 152566,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWU$",
+          "name": "Window type 1:Window type 1:1289928"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 49,
+      "inputs": {
+        "window": {
+          "id": 152591,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWPu",
+          "name": "Window type 1:Window type 1:1289999"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 50,
+      "inputs": {
+        "window": {
+          "id": 152616,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWOI",
+          "name": "Window type 1:Window type 1:1290085"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 51,
+      "inputs": {
+        "window": {
+          "id": 152641,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWR7",
+          "name": "Window type 1:Window type 1:1290160"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 52,
+      "inputs": {
+        "window": {
+          "id": 152666,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMWQD",
+          "name": "Window type 1:Window type 1:1290234"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 53,
+      "inputs": {
+        "window": {
+          "id": 152691,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXaw",
+          "name": "Window type 1:Window type 1:1290317"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 54,
+      "inputs": {
+        "window": {
+          "id": 152716,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXdX",
+          "name": "Window type 1:Window type 1:1290390"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 55,
+      "inputs": {
+        "window": {
+          "id": 152741,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXci",
+          "name": "Window type 1:Window type 1:1290459"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 56,
+      "inputs": {
+        "window": {
+          "id": 152766,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXXV",
+          "name": "Window type 1:Window type 1:1290536"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 57,
+      "inputs": {
+        "window": {
+          "id": 152791,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXW3",
+          "name": "Window type 1:Window type 1:1290612"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 58,
+      "inputs": {
+        "window": {
+          "id": 152816,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXZB",
+          "name": "Window type 1:Window type 1:1290684"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 59,
+      "inputs": {
+        "window": {
+          "id": 152841,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXj$",
+          "name": "Window type 1:Window type 1:1290760"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 60,
+      "inputs": {
+        "window": {
+          "id": 152866,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXiY",
+          "name": "Window type 1:Window type 1:1290837"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 61,
+      "inputs": {
+        "window": {
+          "id": 152999,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXvg",
+          "name": "Window type 1:Window type 1:1292061"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 62,
+      "inputs": {
+        "window": {
+          "id": 153024,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMX6l",
+          "name": "Window type 1:Window type 1:1292504"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 63,
+      "inputs": {
+        "window": {
+          "id": 153049,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMX0b",
+          "name": "Window type 1:Window type 1:1292626"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 64,
+      "inputs": {
+        "window": {
+          "id": 153074,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMX3K",
+          "name": "Window type 1:Window type 1:1292707"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 65,
+      "inputs": {
+        "window": {
+          "id": 153099,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMX2N",
+          "name": "Window type 1:Window type 1:1292768"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 66,
+      "inputs": {
+        "window": {
+          "id": 153124,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXDG",
+          "name": "Window type 1:Window type 1:1292839"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 67,
+      "inputs": {
+        "window": {
+          "id": 153149,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXCK",
+          "name": "Window type 1:Window type 1:1292899"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 68,
+      "inputs": {
+        "window": {
+          "id": 153174,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXFh",
+          "name": "Window type 1:Window type 1:1292956"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 69,
+      "inputs": {
+        "window": {
+          "id": 153199,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXEc",
+          "name": "Window type 1:Window type 1:1293009"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 70,
+      "inputs": {
+        "window": {
+          "id": 153224,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXED",
+          "name": "Window type 1:Window type 1:1293050"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 71,
+      "inputs": {
+        "window": {
+          "id": 153249,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMX93",
+          "name": "Window type 1:Window type 1:1293108"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 72,
+      "inputs": {
+        "window": {
+          "id": 153274,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMX8T",
+          "name": "Window type 1:Window type 1:1293162"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 73,
+      "inputs": {
+        "window": {
+          "id": 153299,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXBR",
+          "name": "Window type 1:Window type 1:1293228"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 74,
+      "inputs": {
+        "window": {
+          "id": 153324,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXAe",
+          "name": "Window type 1:Window type 1:1293279"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 75,
+      "inputs": {
+        "window": {
+          "id": 153349,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXLY",
+          "name": "Window type 1:Window type 1:1293333"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 76,
+      "inputs": {
+        "window": {
+          "id": 153374,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXKs",
+          "name": "Window type 1:Window type 1:1293377"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 77,
+      "inputs": {
+        "window": {
+          "id": 153399,
+          "type": "IfcWindow",
+          "global_id": "3zsCOZ9jf5$uaG9yEGMXNM",
+          "name": "Window type 1:Window type 1:1293473"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 78,
+      "inputs": {
+        "window": {
+          "id": 153460,
+          "type": "IfcWindow",
+          "global_id": "2uj$FsSAr6gepw2dv4irqN",
+          "name": "Window type 1:Window type 1:1294144"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 79,
+      "inputs": {
+        "window": {
+          "id": 153485,
+          "type": "IfcWindow",
+          "global_id": "2uj$FsSAr6gepw2dv4ioBF",
+          "name": "Window type 1:Window type 1:1294488"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 80,
+      "inputs": {
+        "window": {
+          "id": 153510,
+          "type": "IfcWindow",
+          "global_id": "2uj$FsSAr6gepw2dv4ioDi",
+          "name": "Window type 1:Window type 1:1294651"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 81,
+      "inputs": {
+        "window": {
+          "id": 153535,
+          "type": "IfcWindow",
+          "global_id": "2uj$FsSAr6gepw2dv4ioFl",
+          "name": "Window type 1:Window type 1:1294776"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 82,
+      "inputs": {
+        "window": {
+          "id": 153560,
+          "type": "IfcWindow",
+          "global_id": "2uj$FsSAr6gepw2dv4io1t",
+          "name": "Window type 1:Window type 1:1294880"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 83,
+      "inputs": {
+        "window": {
+          "id": 153585,
+          "type": "IfcWindow",
+          "global_id": "2uj$FsSAr6gepw2dv4io3V",
+          "name": "Window type 1:Window type 1:1294984"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 84,
+      "inputs": {
+        "window": {
+          "id": 153646,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJ$G",
+          "name": "Window type 1:Window type 1:1295461"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 85,
+      "inputs": {
+        "window": {
+          "id": 153671,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJxE",
+          "name": "Window type 1:Window type 1:1295739"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 86,
+      "inputs": {
+        "window": {
+          "id": 153696,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJv8",
+          "name": "Window type 1:Window type 1:1295869"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 87,
+      "inputs": {
+        "window": {
+          "id": 153721,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJt5",
+          "name": "Window type 1:Window type 1:1295984"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 88,
+      "inputs": {
+        "window": {
+          "id": 153746,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJrd",
+          "name": "Window type 1:Window type 1:1296082"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 89,
+      "inputs": {
+        "window": {
+          "id": 153771,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJmq",
+          "name": "Window type 1:Window type 1:1296257"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 90,
+      "inputs": {
+        "window": {
+          "id": 153796,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJnc",
+          "name": "Window type 1:Window type 1:1296339"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 91,
+      "inputs": {
+        "window": {
+          "id": 153821,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJEh",
+          "name": "Window type 1:Window type 1:1296414"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 92,
+      "inputs": {
+        "window": {
+          "id": 153846,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJFV",
+          "name": "Window type 1:Window type 1:1296490"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 93,
+      "inputs": {
+        "window": {
+          "id": 153871,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJDS",
+          "name": "Window type 1:Window type 1:1296617"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 94,
+      "inputs": {
+        "window": {
+          "id": 153896,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJBU",
+          "name": "Window type 1:Window type 1:1296747"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 95,
+      "inputs": {
+        "window": {
+          "id": 153921,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJ9x",
+          "name": "Window type 1:Window type 1:1296846"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 96,
+      "inputs": {
+        "window": {
+          "id": 153946,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJ6O",
+          "name": "Window type 1:Window type 1:1296941"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 97,
+      "inputs": {
+        "window": {
+          "id": 153971,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJ79",
+          "name": "Window type 1:Window type 1:1297020"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 98,
+      "inputs": {
+        "window": {
+          "id": 153996,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJ5c",
+          "name": "Window type 1:Window type 1:1297107"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 99,
+      "inputs": {
+        "window": {
+          "id": 154021,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJ3_",
+          "name": "Window type 1:Window type 1:1297227"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 100,
+      "inputs": {
+        "window": {
+          "id": 154046,
+          "type": "IfcWindow",
+          "global_id": "3laEpoPKr51O98uFM0uJ1m",
+          "name": "Window type 1:Window type 1:1297349"
+        }
+      },
+      "status": "success",
+      "output": [
+        9.47704865055579,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 101,
+      "inputs": {
+        "window": {
+          "id": 380962,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5at",
+          "name": "Windows_Sgl_Plain:Window wood frame:1455056"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 102,
+      "inputs": {
+        "window": {
+          "id": 381033,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5uF",
+          "name": "Windows_Sgl_Plain:Window wood frame:1455336"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 103,
+      "inputs": {
+        "window": {
+          "id": 381369,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5zC",
+          "name": "Windows_Sgl_Plain:Window wood frame:1455531"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 104,
+      "inputs": {
+        "window": {
+          "id": 381400,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5pV",
+          "name": "Windows_Sgl_Plain:Window wood frame:1455672"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 105,
+      "inputs": {
+        "window": {
+          "id": 381426,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5n6",
+          "name": "Windows_Sgl_Plain:Window wood frame:1455777"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 106,
+      "inputs": {
+        "window": {
+          "id": 381452,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5mC",
+          "name": "Windows_Sgl_Plain:Window wood frame:1455851"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 107,
+      "inputs": {
+        "window": {
+          "id": 381479,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5sM",
+          "name": "Windows_Sgl_Plain:Window wood frame:1455985"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 108,
+      "inputs": {
+        "window": {
+          "id": 381505,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5qk",
+          "name": "Windows_Sgl_Plain:Window wood frame:1456073"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 109,
+      "inputs": {
+        "window": {
+          "id": 381531,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5Bh",
+          "name": "Windows_Sgl_Plain:Window wood frame:1456140"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 110,
+      "inputs": {
+        "window": {
+          "id": 381868,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum59a",
+          "name": "Windows_Sgl_Plain:Window wood frame:1456259"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 111,
+      "inputs": {
+        "window": {
+          "id": 381898,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum58U",
+          "name": "Windows_Sgl_Plain:Window wood frame:1456377"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 112,
+      "inputs": {
+        "window": {
+          "id": 381924,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5Ev",
+          "name": "Windows_Sgl_Plain:Window wood frame:1456478"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 113,
+      "inputs": {
+        "window": {
+          "id": 381950,
+          "type": "IfcWindow",
+          "global_id": "0ESkgHcJP7tOLhsPvum5Do",
+          "name": "Windows_Sgl_Plain:Window wood frame:1456533"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 114,
+      "inputs": {
+        "window": {
+          "id": 1820777,
+          "type": "IfcWindow",
+          "global_id": "1ecurHUOP6FPaHhAAu3fr1",
+          "name": "Windows_Sgl_Plain:Window wood frame:1483512"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 115,
+      "inputs": {
+        "window": {
+          "id": 1820803,
+          "type": "IfcWindow",
+          "global_id": "1ecurHUOP6FPaHhAAu3fo3",
+          "name": "Windows_Sgl_Plain:Window wood frame:1483578"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 116,
+      "inputs": {
+        "window": {
+          "id": 1820829,
+          "type": "IfcWindow",
+          "global_id": "1ecurHUOP6FPaHhAAu3fm9",
+          "name": "Windows_Sgl_Plain:Window wood frame:1483696"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    },
+    {
+      "call_index": 117,
+      "inputs": {
+        "window": {
+          "id": 1820855,
+          "type": "IfcWindow",
+          "global_id": "1ecurHUOP6FPaHhAAu3fnP",
+          "name": "Windows_Sgl_Plain:Window wood frame:1483744"
+        }
+      },
+      "status": "success",
+      "output": [
+        3.43339524879583,
+        "area_unit"
+      ]
+    }
+  ],
+  "function": "get_window_area",
+  "run_id": "5f855dae5223414c86f473a1477839b2",
+  "status": "success",
+  "call_count": 117
+}

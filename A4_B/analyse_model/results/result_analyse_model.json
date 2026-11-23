@@ -1,0 +1,2442 @@
+{
+  "calls": [
+    {
+      "call_index": 1,
+      "inputs": {
+        "ifc_file": {
+          "type": "IfcModel",
+          "schema": "IFC4X3"
+        },
+        "progress_callback": null
+      },
+      "status": "success",
+      "output": {
+        "rooms": [
+          {
+            "name": "65",
+            "long_name": "Office",
+            "floor_area": 104.863069999998,
+            "storey": "F_00",
+            "global_id": "3rliqOKKr3tuMnBuEs1y7L",
+            "space_id": 230,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 152391,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWLY",
+                "name": "Window type 1:Window type 1:1289237",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152416,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWMI",
+                "name": "Window type 1:Window type 1:1289445",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152441,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWG$",
+                "name": "Window type 1:Window type 1:1289544",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152466,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWJW",
+                "name": "Window type 1:Window type 1:1289623",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 380962,
+                "global_id": "0ESkgHcJP7tOLhsPvum5at",
+                "name": "Windows_Sgl_Plain:Window wood frame:1455056",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 41.341589851018995
+          },
+          {
+            "name": "66",
+            "long_name": "Office",
+            "floor_area": 100.072160000005,
+            "storey": "F_00",
+            "global_id": "3rliqOKKr3tuMnBuEs1y7M",
+            "space_id": 302,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 152491,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWIT",
+                "name": "Window type 1:Window type 1:1289706",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152516,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWT4",
+                "name": "Window type 1:Window type 1:1289779",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152541,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWSA",
+                "name": "Window type 1:Window type 1:1289853",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152566,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWU$",
+                "name": "Window type 1:Window type 1:1289928",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 381033,
+                "global_id": "0ESkgHcJP7tOLhsPvum5uF",
+                "name": "Windows_Sgl_Plain:Window wood frame:1455336",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 41.341589851018995
+          },
+          {
+            "name": "67",
+            "long_name": "Office",
+            "floor_area": 103.015249999998,
+            "storey": "F_00",
+            "global_id": "3rliqOKKr3tuMnBuEs1y7B",
+            "space_id": 346,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 152591,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWPu",
+                "name": "Window type 1:Window type 1:1289999",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152616,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWOI",
+                "name": "Window type 1:Window type 1:1290085",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152641,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWR7",
+                "name": "Window type 1:Window type 1:1290160",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 381369,
+                "global_id": "0ESkgHcJP7tOLhsPvum5zC",
+                "name": "Windows_Sgl_Plain:Window wood frame:1455531",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 31.8645412004632
+          },
+          {
+            "name": "68",
+            "long_name": "Office",
+            "floor_area": 131.504769999997,
+            "storey": "F_00",
+            "global_id": "3rliqOKKr3tuMnBuEs1y7C",
+            "space_id": 391,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 152791,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXW3",
+                "name": "Window type 1:Window type 1:1290612",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152816,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXZB",
+                "name": "Window type 1:Window type 1:1290684",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152841,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXj$",
+                "name": "Window type 1:Window type 1:1290760",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152866,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXiY",
+                "name": "Window type 1:Window type 1:1290837",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 37.90819460222316
+          },
+          {
+            "name": "69",
+            "long_name": "Toilet lobby",
+            "floor_area": 23.0287999999998,
+            "storey": "F_00",
+            "global_id": "3rliqOKKr3tuMnBuEs1y71",
+            "space_id": 440,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 152741,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXci",
+                "name": "Window type 1:Window type 1:1290459",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152766,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXXV",
+                "name": "Window type 1:Window type 1:1290536",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 18.95409730111158
+          },
+          {
+            "name": "70",
+            "long_name": "Toilet lobby",
+            "floor_area": 22.539499999998,
+            "storey": "F_00",
+            "global_id": "3rliqOKKr3tuMnBuEs1y72",
+            "space_id": 489,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 152666,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWQD",
+                "name": "Window type 1:Window type 1:1290234",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152691,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXaw",
+                "name": "Window type 1:Window type 1:1290317",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152716,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXdX",
+                "name": "Window type 1:Window type 1:1290390",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 28.43114595166737
+          },
+          {
+            "name": "71",
+            "long_name": "Atrium w/ caf\u00e9",
+            "floor_area": 343.367024999997,
+            "storey": "F_00",
+            "global_id": "0szTvev_X5FwVKWKdsFcbN",
+            "space_id": 615,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "72",
+            "long_name": "Auditorium",
+            "floor_area": 245.378649999999,
+            "storey": "F_00",
+            "global_id": "25zi1S6Vf1YAFNxTmWopyv",
+            "space_id": 684,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "73",
+            "long_name": "Multipurpose space",
+            "floor_area": 251.741499999999,
+            "storey": "F_00",
+            "global_id": "25zi1S6Vf1YAFNxTmWopz4",
+            "space_id": 742,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "74",
+            "long_name": "Materials library and student work area",
+            "floor_area": 324.058474999998,
+            "storey": "F_00",
+            "global_id": "3JgxhZI9H8jxAp0umj7O5d",
+            "space_id": 846,
+            "is_relevant": true,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "75",
+            "long_name": "Student work area",
+            "floor_area": 102.800000000001,
+            "storey": "F_00",
+            "global_id": "3JgxhZI9H8jxAp0umj7O1y",
+            "space_id": 907,
+            "is_relevant": true,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "76",
+            "long_name": "Elevator",
+            "floor_area": 10.4581250000002,
+            "storey": "F_00",
+            "global_id": "184lvBCnz40vHXKM$fVOxD",
+            "space_id": 944,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "77",
+            "long_name": "Office",
+            "floor_area": 106.785976432757,
+            "storey": "F_01",
+            "global_id": "0FbjNev_DAiupX2LPEgrDd",
+            "space_id": 1004,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 151371,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZDp",
+                "name": "Window type 1:Window type 1:1284612",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151416,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZE9",
+                "name": "Window type 1:Window type 1:1284862",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151441,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZBW",
+                "name": "Window type 1:Window type 1:1285015",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151466,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZLw",
+                "name": "Window type 1:Window type 1:1285133",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 381400,
+                "global_id": "0ESkgHcJP7tOLhsPvum5pV",
+                "name": "Windows_Sgl_Plain:Window wood frame:1455672",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 41.341589851018995
+          },
+          {
+            "name": "78",
+            "long_name": "Office",
+            "floor_area": 100.55306017879,
+            "storey": "F_01",
+            "global_id": "0FbjNev_DAiupX2LPEgrDU",
+            "space_id": 1063,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 151491,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZNb",
+                "name": "Window type 1:Window type 1:1285266",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151516,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZHN",
+                "name": "Window type 1:Window type 1:1285408",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151541,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZJd",
+                "name": "Window type 1:Window type 1:1285520",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151566,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZTs",
+                "name": "Window type 1:Window type 1:1285633",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 381426,
+                "global_id": "0ESkgHcJP7tOLhsPvum5n6",
+                "name": "Windows_Sgl_Plain:Window wood frame:1455777",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 41.341589851018995
+          },
+          {
+            "name": "79",
+            "long_name": "Office",
+            "floor_area": 103.280999999999,
+            "storey": "F_01",
+            "global_id": "0FbjNev_DAiupX2LPEgrDT",
+            "space_id": 1115,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 151591,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZSC",
+                "name": "Window type 1:Window type 1:1285755",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151616,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZUP",
+                "name": "Window type 1:Window type 1:1285870",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151641,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZOM",
+                "name": "Window type 1:Window type 1:1285985",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151666,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMZQf",
+                "name": "Window type 1:Window type 1:1286110",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 381452,
+                "global_id": "0ESkgHcJP7tOLhsPvum5mC",
+                "name": "Windows_Sgl_Plain:Window wood frame:1455851",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 41.341589851018995
+          },
+          {
+            "name": "80",
+            "long_name": "Office",
+            "floor_area": 132.509779999996,
+            "storey": "F_01",
+            "global_id": "0FbjNev_DAiupX2LPEgrDN",
+            "space_id": 1175,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 151791,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWjW",
+                "name": "Window type 1:Window type 1:1286679",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151816,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWln",
+                "name": "Window type 1:Window type 1:1286790",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151841,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWfc",
+                "name": "Window type 1:Window type 1:1286929",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151866,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWhb",
+                "name": "Window type 1:Window type 1:1287058",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 37.90819460222316
+          },
+          {
+            "name": "81",
+            "long_name": "Toilet lobby",
+            "floor_area": 22.6923749999989,
+            "storey": "F_01",
+            "global_id": "0NObDf$Mf8lOnDhYlLCrP$",
+            "space_id": 1226,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 151691,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWa_",
+                "name": "Window type 1:Window type 1:1286217",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 9.47704865055579
+          },
+          {
+            "name": "82",
+            "long_name": "Toilet lobby",
+            "floor_area": 22.9778000000013,
+            "storey": "F_01",
+            "global_id": "0NObDf$Mf8lOnDhYlLCrPy",
+            "space_id": 1279,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 151716,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWcd",
+                "name": "Window type 1:Window type 1:1286352",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151741,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWWr",
+                "name": "Window type 1:Window type 1:1286466",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151766,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWZU",
+                "name": "Window type 1:Window type 1:1286569",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 28.43114595166737
+          },
+          {
+            "name": "83",
+            "long_name": "Office",
+            "floor_area": 114.54776409994,
+            "storey": "F_01",
+            "global_id": "0_iiPuVlPCaeWAjAafSout",
+            "space_id": 1343,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 153460,
+                "global_id": "2uj$FsSAr6gepw2dv4irqN",
+                "name": "Window type 1:Window type 1:1294144",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153485,
+                "global_id": "2uj$FsSAr6gepw2dv4ioBF",
+                "name": "Window type 1:Window type 1:1294488",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153510,
+                "global_id": "2uj$FsSAr6gepw2dv4ioDi",
+                "name": "Window type 1:Window type 1:1294651",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153535,
+                "global_id": "2uj$FsSAr6gepw2dv4ioFl",
+                "name": "Window type 1:Window type 1:1294776",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153560,
+                "global_id": "2uj$FsSAr6gepw2dv4io1t",
+                "name": "Window type 1:Window type 1:1294880",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153585,
+                "global_id": "2uj$FsSAr6gepw2dv4io3V",
+                "name": "Window type 1:Window type 1:1294984",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 56.862291903334736
+          },
+          {
+            "name": "84",
+            "long_name": "Elevator",
+            "floor_area": 10.4581250000001,
+            "storey": "F_01",
+            "global_id": "1kUFZyiGTEggE2ORBMX1hX",
+            "space_id": 1380,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "85",
+            "long_name": "Meeting room",
+            "floor_area": 38.9053499999996,
+            "storey": "F_01",
+            "global_id": "3eP4vrUND2DO7l3vT$cqZS",
+            "space_id": 1417,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 1820777,
+                "global_id": "1ecurHUOP6FPaHhAAu3fr1",
+                "name": "Windows_Sgl_Plain:Window wood frame:1483512",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 3.43339524879583
+          },
+          {
+            "name": "86",
+            "long_name": "Meeting room",
+            "floor_area": 39.9138500000002,
+            "storey": "F_01",
+            "global_id": "3eP4vrUND2DO7l3vT$cqZP",
+            "space_id": 1463,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 1820855,
+                "global_id": "1ecurHUOP6FPaHhAAu3fnP",
+                "name": "Windows_Sgl_Plain:Window wood frame:1483744",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 3.43339524879583
+          },
+          {
+            "name": "87",
+            "long_name": "Meeting room",
+            "floor_area": 39.3128999999993,
+            "storey": "F_01",
+            "global_id": "3eP4vrUND2DO7l3vT$cqZQ",
+            "space_id": 1500,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 1820803,
+                "global_id": "1ecurHUOP6FPaHhAAu3fo3",
+                "name": "Windows_Sgl_Plain:Window wood frame:1483578",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 3.43339524879583
+          },
+          {
+            "name": "88",
+            "long_name": "Meeting room",
+            "floor_area": 39.6024589188636,
+            "storey": "F_01",
+            "global_id": "3eP4vrUND2DO7l3vT$cqWd",
+            "space_id": 1546,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 1820829,
+                "global_id": "1ecurHUOP6FPaHhAAu3fm9",
+                "name": "Windows_Sgl_Plain:Window wood frame:1483696",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 3.43339524879583
+          },
+          {
+            "name": "89",
+            "long_name": "Student work area",
+            "floor_area": 153.839999999998,
+            "storey": "F_01",
+            "global_id": "0bOpAry4T3e8rOmv14uUlD",
+            "space_id": 1592,
+            "is_relevant": true,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "90",
+            "long_name": "Elevator",
+            "floor_area": 10.4581249999996,
+            "storey": "F_02",
+            "global_id": "3UVod0Paz0nRz4W52EmhYF",
+            "space_id": 1629,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "91",
+            "long_name": "Meeting room",
+            "floor_area": 58.5833250000002,
+            "storey": "F_02",
+            "global_id": "3UVod0Paz0nRz4W52EmhY4",
+            "space_id": 1680,
+            "is_relevant": true,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "92",
+            "long_name": "Toilet lobby",
+            "floor_area": 23.1054001787831,
+            "storey": "F_02",
+            "global_id": "0CtZDVnWX30QVj$Ag0zGsi",
+            "space_id": 1731,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 152191,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMW19",
+                "name": "Window type 1:Window type 1:1288510",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 9.47704865055579
+          },
+          {
+            "name": "93",
+            "long_name": "Toilet",
+            "floor_area": 22.9777999999989,
+            "storey": "F_02",
+            "global_id": "0CtZDVnWX30QVj$Ag0zGsl",
+            "space_id": 1784,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 152216,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMW3J",
+                "name": "Window type 1:Window type 1:1288612",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152241,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWDo",
+                "name": "Window type 1:Window type 1:1288709",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152266,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWC4",
+                "name": "Window type 1:Window type 1:1288819",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 28.43114595166737
+          },
+          {
+            "name": "94",
+            "long_name": "Lounge",
+            "floor_area": 92.1599999999995,
+            "storey": "F_02",
+            "global_id": "20OHSyv_v63OSUhoM8lIV4",
+            "space_id": 1821,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "95",
+            "long_name": "Office",
+            "floor_area": 105.869459999993,
+            "storey": "F_02",
+            "global_id": "1LhcrbjtD78w9wyGDfzvd3",
+            "space_id": 1879,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 151891,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWrx",
+                "name": "Window type 1:Window type 1:1287180",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151916,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWnN",
+                "name": "Window type 1:Window type 1:1287456",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151941,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWpL",
+                "name": "Window type 1:Window type 1:1287586",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 151966,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWzt",
+                "name": "Window type 1:Window type 1:1287680",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 381479,
+                "global_id": "0ESkgHcJP7tOLhsPvum5sM",
+                "name": "Windows_Sgl_Plain:Window wood frame:1455985",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 41.341589851018995
+          },
+          {
+            "name": "96",
+            "long_name": "Office",
+            "floor_area": 100.425460000004,
+            "storey": "F_02",
+            "global_id": "1LhcrbjtD78w9wyGDfzvcy",
+            "space_id": 1939,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 151991,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWyU",
+                "name": "Window type 1:Window type 1:1287785",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152016,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMW_s",
+                "name": "Window type 1:Window type 1:1287873",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152041,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWvf",
+                "name": "Window type 1:Window type 1:1287966",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152066,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWu2",
+                "name": "Window type 1:Window type 1:1288053",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 381505,
+                "global_id": "0ESkgHcJP7tOLhsPvum5qk",
+                "name": "Windows_Sgl_Plain:Window wood frame:1456073",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 41.341589851018995
+          },
+          {
+            "name": "97",
+            "long_name": "Office",
+            "floor_area": 103.933721012677,
+            "storey": "F_02",
+            "global_id": "1LhcrbjtD78w9wyGDfzvcv",
+            "space_id": 1995,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 152091,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWwg",
+                "name": "Window type 1:Window type 1:1288157",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152116,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMW50",
+                "name": "Window type 1:Window type 1:1288247",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152141,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMW7a",
+                "name": "Window type 1:Window type 1:1288339",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152166,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMW6U",
+                "name": "Window type 1:Window type 1:1288425",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 381531,
+                "global_id": "0ESkgHcJP7tOLhsPvum5Bh",
+                "name": "Windows_Sgl_Plain:Window wood frame:1456140",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 41.341589851018995
+          },
+          {
+            "name": "98",
+            "long_name": "Office",
+            "floor_area": 132.509779999998,
+            "storey": "F_02",
+            "global_id": "1LhcrbjtD78w9wyGDfzvcw",
+            "space_id": 2055,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 152291,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWEd",
+                "name": "Window type 1:Window type 1:1288912",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152316,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMW9J",
+                "name": "Window type 1:Window type 1:1288996",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152341,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMW8E",
+                "name": "Window type 1:Window type 1:1289081",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 152366,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMWAb",
+                "name": "Window type 1:Window type 1:1289170",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 37.90819460222316
+          },
+          {
+            "name": "99",
+            "long_name": "Room",
+            "floor_area": 240.57045821347,
+            "storey": "F_02",
+            "global_id": "17PxF$FIf9DebAAs_gshTU",
+            "space_id": 2125,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 153996,
+                "global_id": "3laEpoPKr51O98uFM0uJ5c",
+                "name": "Window type 1:Window type 1:1297107",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 154021,
+                "global_id": "3laEpoPKr51O98uFM0uJ3_",
+                "name": "Window type 1:Window type 1:1297227",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 154046,
+                "global_id": "3laEpoPKr51O98uFM0uJ1m",
+                "name": "Window type 1:Window type 1:1297349",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 381868,
+                "global_id": "0ESkgHcJP7tOLhsPvum59a",
+                "name": "Windows_Sgl_Plain:Window wood frame:1456259",
+                "area": 3.43339524879583
+              },
+              {
+                "id": 381898,
+                "global_id": "0ESkgHcJP7tOLhsPvum58U",
+                "name": "Windows_Sgl_Plain:Window wood frame:1456377",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 35.29793644925903
+          },
+          {
+            "name": "100",
+            "long_name": "Office",
+            "floor_area": 197.692500000003,
+            "storey": "F_02",
+            "global_id": "17PxF$FIf9DebAAs_gshSl",
+            "space_id": 2185,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 153846,
+                "global_id": "3laEpoPKr51O98uFM0uJFV",
+                "name": "Window type 1:Window type 1:1296490",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153871,
+                "global_id": "3laEpoPKr51O98uFM0uJDS",
+                "name": "Window type 1:Window type 1:1296617",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153896,
+                "global_id": "3laEpoPKr51O98uFM0uJBU",
+                "name": "Window type 1:Window type 1:1296747",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 28.43114595166737
+          },
+          {
+            "name": "101",
+            "long_name": "Office",
+            "floor_area": 116.872500000001,
+            "storey": "F_02",
+            "global_id": "17PxF$FIf9DebAAs_gshSi",
+            "space_id": 2242,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 153746,
+                "global_id": "3laEpoPKr51O98uFM0uJrd",
+                "name": "Window type 1:Window type 1:1296082",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153771,
+                "global_id": "3laEpoPKr51O98uFM0uJmq",
+                "name": "Window type 1:Window type 1:1296257",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 18.95409730111158
+          },
+          {
+            "name": "102",
+            "long_name": "Office",
+            "floor_area": 118.073640000002,
+            "storey": "F_02",
+            "global_id": "17PxF$FIf9DebAAs_gshSn",
+            "space_id": 2326,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 153646,
+                "global_id": "3laEpoPKr51O98uFM0uJ$G",
+                "name": "Window type 1:Window type 1:1295461",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153671,
+                "global_id": "3laEpoPKr51O98uFM0uJxE",
+                "name": "Window type 1:Window type 1:1295739",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153696,
+                "global_id": "3laEpoPKr51O98uFM0uJv8",
+                "name": "Window type 1:Window type 1:1295869",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 28.43114595166737
+          },
+          {
+            "name": "103",
+            "long_name": "Terrace",
+            "floor_area": 246.319427032599,
+            "storey": "F_02",
+            "global_id": "2vUF1BEtzBCQ98MiY$TM3P",
+            "space_id": 2379,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 153946,
+                "global_id": "3laEpoPKr51O98uFM0uJ6O",
+                "name": "Window type 1:Window type 1:1296941",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153971,
+                "global_id": "3laEpoPKr51O98uFM0uJ79",
+                "name": "Window type 1:Window type 1:1297020",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 18.95409730111158
+          },
+          {
+            "name": "104",
+            "long_name": "Terrace",
+            "floor_area": 119.213688807306,
+            "storey": "F_01",
+            "global_id": "3PElZjL4HENfShg_hHLao9",
+            "space_id": 2495,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "105",
+            "long_name": "Elevator",
+            "floor_area": 10.4581250000001,
+            "storey": "B_00",
+            "global_id": "0qATZPjgj3tf$dKMf3CQ3Z",
+            "space_id": 2532,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "106",
+            "long_name": "Office",
+            "floor_area": 104.671967670655,
+            "storey": "B_00",
+            "global_id": "1VN7R6GrD8I9Vj2NLFEMmC",
+            "space_id": 2591,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 152999,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXvg",
+                "name": "Window type 1:Window type 1:1292061",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153024,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMX6l",
+                "name": "Window type 1:Window type 1:1292504",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153049,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMX0b",
+                "name": "Window type 1:Window type 1:1292626",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153074,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMX3K",
+                "name": "Window type 1:Window type 1:1292707",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 37.90819460222316
+          },
+          {
+            "name": "107",
+            "long_name": "Office",
+            "floor_area": 100.331209432135,
+            "storey": "B_00",
+            "global_id": "1VN7R6GrD8I9Vj2NLFEMm9",
+            "space_id": 2651,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 153099,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMX2N",
+                "name": "Window type 1:Window type 1:1292768",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153124,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXDG",
+                "name": "Window type 1:Window type 1:1292839",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153149,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXCK",
+                "name": "Window type 1:Window type 1:1292899",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153174,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXFh",
+                "name": "Window type 1:Window type 1:1292956",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 37.90819460222316
+          },
+          {
+            "name": "108",
+            "long_name": "Office",
+            "floor_area": 105.252931383789,
+            "storey": "B_00",
+            "global_id": "1VN7R6GrD8I9Vj2NLFEMmA",
+            "space_id": 2707,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 153199,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXEc",
+                "name": "Window type 1:Window type 1:1293009",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153224,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXED",
+                "name": "Window type 1:Window type 1:1293050",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153249,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMX93",
+                "name": "Window type 1:Window type 1:1293108",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153274,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMX8T",
+                "name": "Window type 1:Window type 1:1293162",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 37.90819460222316
+          },
+          {
+            "name": "109",
+            "long_name": "Meeting room",
+            "floor_area": 50.9515360712889,
+            "storey": "B_00",
+            "global_id": "1VN7R6GrD8I9Vj2NLFEMm7",
+            "space_id": 2796,
+            "is_relevant": true,
+            "windows": [
+              {
+                "id": 153299,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXBR",
+                "name": "Window type 1:Window type 1:1293228",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153324,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXAe",
+                "name": "Window type 1:Window type 1:1293279",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 18.95409730111158
+          },
+          {
+            "name": "110",
+            "long_name": "Toilet lobby",
+            "floor_area": 22.1261097160631,
+            "storey": "B_00",
+            "global_id": "1VN7R6GrD8I9Vj2NLFEMm0",
+            "space_id": 2847,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 153349,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXLY",
+                "name": "Window type 1:Window type 1:1293333",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153374,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXKs",
+                "name": "Window type 1:Window type 1:1293377",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 18.95409730111158
+          },
+          {
+            "name": "111",
+            "long_name": "Toilet lobby",
+            "floor_area": 22.1261097160652,
+            "storey": "B_00",
+            "global_id": "1VN7R6GrD8I9Vj2NLFEMmT",
+            "space_id": 2899,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 153399,
+                "global_id": "3zsCOZ9jf5$uaG9yEGMXNM",
+                "name": "Window type 1:Window type 1:1293473",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 9.47704865055579
+          },
+          {
+            "name": "114",
+            "long_name": "Reception",
+            "floor_area": 30.0039049999985,
+            "storey": "B_00",
+            "global_id": "05_5Sa0Bz0FBp2SiEUZLQd",
+            "space_id": 2947,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "115",
+            "long_name": "Corridor",
+            "floor_area": 231.986869224697,
+            "storey": "F_01",
+            "global_id": "2NodU0e1LAjhttzs10KQYX",
+            "space_id": 3097,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "116",
+            "long_name": "Corridor",
+            "floor_area": 240.888850000006,
+            "storey": "F_01",
+            "global_id": "2NodU0e1LAjhttzs10KQXo",
+            "space_id": 3404,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "117",
+            "long_name": "Corridor",
+            "floor_area": 36.4396549999971,
+            "storey": "F_01",
+            "global_id": "2NodU0e1LAjhttzs10KQXn",
+            "space_id": 3441,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "118",
+            "long_name": "Corridor",
+            "floor_area": 389.694855,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9RT",
+            "space_id": 4009,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 381924,
+                "global_id": "0ESkgHcJP7tOLhsPvum5Ev",
+                "name": "Windows_Sgl_Plain:Window wood frame:1456478",
+                "area": 3.43339524879583
+              },
+              {
+                "id": 381950,
+                "global_id": "0ESkgHcJP7tOLhsPvum5Do",
+                "name": "Windows_Sgl_Plain:Window wood frame:1456533",
+                "area": 3.43339524879583
+              }
+            ],
+            "total_window_area": 6.86679049759166
+          },
+          {
+            "name": "119",
+            "long_name": "Stairs",
+            "floor_area": 36.4396549999971,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9RN",
+            "space_id": 4046,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "120",
+            "long_name": "Stairs",
+            "floor_area": 37.4288349999996,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9RK",
+            "space_id": 4083,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "121",
+            "long_name": "Storage/utility",
+            "floor_area": 18.12775,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Si",
+            "space_id": 4120,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "122",
+            "long_name": "Storage/utility",
+            "floor_area": 18.12775,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9SX",
+            "space_id": 4157,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "123",
+            "long_name": "Storage/utility",
+            "floor_area": 18.12775,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Sc",
+            "space_id": 4194,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "124",
+            "long_name": "Storage/utility",
+            "floor_area": 6.91246000000007,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9S$",
+            "space_id": 4231,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "125",
+            "long_name": "Shower",
+            "floor_area": 5.11290000000023,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9S1",
+            "space_id": 4268,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "126",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000012,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9SU",
+            "space_id": 4305,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "127",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000009,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9SJ",
+            "space_id": 4342,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "128",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999992,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9SG",
+            "space_id": 4379,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "129",
+            "long_name": "Toilet",
+            "floor_area": 2.1878999999999,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9SL",
+            "space_id": 4416,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "130",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999991,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Tg",
+            "space_id": 4453,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "131",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000007,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Tl",
+            "space_id": 4490,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "132",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000009,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Ti",
+            "space_id": 4527,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "133",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000011,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9TX",
+            "space_id": 4564,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "134",
+            "long_name": "Toilet",
+            "floor_area": 2.1879000000001,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Tc",
+            "space_id": 4601,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "135",
+            "long_name": "Toilet",
+            "floor_area": 2.1879000000001,
+            "storey": "F_02",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Tx",
+            "space_id": 4638,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "136",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999997,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Tz",
+            "space_id": 4675,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "137",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999997,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9To",
+            "space_id": 4712,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "138",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999997,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9T2",
+            "space_id": 4749,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "139",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999996,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9T7",
+            "space_id": 4786,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "140",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999991,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9T4",
+            "space_id": 4823,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "141",
+            "long_name": "Toilet",
+            "floor_area": 2.1878999999999,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9TP",
+            "space_id": 4860,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "142",
+            "long_name": "Toilet",
+            "floor_area": 2.1878999999999,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9TU",
+            "space_id": 4897,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "143",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000008,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9TJ",
+            "space_id": 4934,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "144",
+            "long_name": "Toilet",
+            "floor_area": 2.1879000000001,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9TG",
+            "space_id": 4971,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "145",
+            "long_name": "Shower",
+            "floor_area": 5.11289999999996,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Ug",
+            "space_id": 5008,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "146",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000009,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Uy",
+            "space_id": 5045,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "147",
+            "long_name": "Storage/utility",
+            "floor_area": 36.6537499999999,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Us",
+            "space_id": 5082,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "148",
+            "long_name": "Storage/utility",
+            "floor_area": 36.6537500000001,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9UB",
+            "space_id": 5119,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "149",
+            "long_name": "Storage/utility",
+            "floor_area": 38.6973499999997,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9U1",
+            "space_id": 5156,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "150",
+            "long_name": "Stairs",
+            "floor_area": 37.4288350000005,
+            "storey": "F_01",
+            "global_id": "0KQ815tjDESx3p0r6Lr9UR",
+            "space_id": 5193,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "151",
+            "long_name": "Storage/utility",
+            "floor_area": 36.6537500000001,
+            "storey": "F_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9UT",
+            "space_id": 5230,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "152",
+            "long_name": "Storage/utility",
+            "floor_area": 36.65375,
+            "storey": "F_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9UI",
+            "space_id": 5267,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "153",
+            "long_name": "Storage/utility",
+            "floor_area": 36.653750000001,
+            "storey": "F_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9UN",
+            "space_id": 5304,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "154",
+            "long_name": "Corridor",
+            "floor_area": 275.648991000002,
+            "storey": "F_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Vf",
+            "space_id": 5484,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "155",
+            "long_name": "Corridor",
+            "floor_area": 215.988640999976,
+            "storey": "F_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Vk",
+            "space_id": 5680,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "156",
+            "long_name": "Stairs",
+            "floor_area": 34.7332849999989,
+            "storey": "F_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9VZ",
+            "space_id": 5717,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "157",
+            "long_name": "Stairs",
+            "floor_area": 36.4896525000006,
+            "storey": "F_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Vy",
+            "space_id": 5754,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "158",
+            "long_name": "Corridor",
+            "floor_area": 211.724077879394,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9V2",
+            "space_id": 5813,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "159",
+            "long_name": "Corridor",
+            "floor_area": 132.334070000002,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9V7",
+            "space_id": 5869,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "160",
+            "long_name": "Corridor",
+            "floor_area": 35.4191700000004,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9V4",
+            "space_id": 5906,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "161",
+            "long_name": "Corridor",
+            "floor_area": 36.0085900000019,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9VP",
+            "space_id": 5974,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "162",
+            "long_name": "Stairs",
+            "floor_area": 34.1467649999998,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9VU",
+            "space_id": 6017,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "163",
+            "long_name": "Stairs",
+            "floor_area": 36.1874950000009,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9VG",
+            "space_id": 6054,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "164",
+            "long_name": "Toilet",
+            "floor_area": 2.17854999999999,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Gl",
+            "space_id": 6091,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "165",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Gi",
+            "space_id": 6128,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "166",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000001,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9GX",
+            "space_id": 6165,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "167",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Gc",
+            "space_id": 6202,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "168",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000001,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Gx",
+            "space_id": 6239,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "169",
+            "long_name": "Toilet",
+            "floor_area": 2.1879,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Gu",
+            "space_id": 6276,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "170",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Gz",
+            "space_id": 6313,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "171",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000001,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Go",
+            "space_id": 6350,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "172",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Gt",
+            "space_id": 6387,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "173",
+            "long_name": "Toilet",
+            "floor_area": 2.17855,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9Gq",
+            "space_id": 6424,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "174",
+            "long_name": "Shower",
+            "floor_area": 5.10255000000001,
+            "storey": "B_00",
+            "global_id": "0KQ815tjDESx3p0r6Lr9G9",
+            "space_id": 6461,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "175",
+            "long_name": "Storage/utility",
+            "floor_area": 68.1714000000004,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapEF",
+            "space_id": 6498,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "176",
+            "long_name": "Storage/utility",
+            "floor_area": 121.110000000001,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapEA",
+            "space_id": 6535,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "177",
+            "long_name": "Storage/utility",
+            "floor_area": 52.7379000000002,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapEL",
+            "space_id": 6572,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "178",
+            "long_name": "Storage/utility",
+            "floor_area": 33.6905999999995,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapEG",
+            "space_id": 6609,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "179",
+            "long_name": "Storage/utility",
+            "floor_area": 33.6905999999999,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapEP",
+            "space_id": 6646,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "180",
+            "long_name": "Storage/utility",
+            "floor_area": 33.6905999999999,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFa",
+            "space_id": 6683,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "181",
+            "long_name": "Storage/utility",
+            "floor_area": 33.6905999999988,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFd",
+            "space_id": 6720,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "182",
+            "long_name": "Storage/utility",
+            "floor_area": 199.443599999985,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFY",
+            "space_id": 6757,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "183",
+            "long_name": "Storage/utility",
+            "floor_area": 59.2195999999958,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFj",
+            "space_id": 6794,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "184",
+            "long_name": "Corridor",
+            "floor_area": 171.972369075661,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFh",
+            "space_id": 6837,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "185",
+            "long_name": "Corridor",
+            "floor_area": 25.3637999999997,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFs",
+            "space_id": 6874,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "186",
+            "long_name": "Storage/utility",
+            "floor_area": 19.7607000000011,
+            "storey": "B_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFy",
+            "space_id": 6911,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "187",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapF5",
+            "space_id": 6948,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "188",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapF0",
+            "space_id": 6985,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "189",
+            "long_name": "Toilet",
+            "floor_area": 2.18790000000001,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapF3",
+            "space_id": 7022,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "190",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFE",
+            "space_id": 7059,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "191",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapF9",
+            "space_id": 7096,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "192",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFK",
+            "space_id": 7133,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "193",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999999,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFN",
+            "space_id": 7170,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "194",
+            "long_name": "Toilet",
+            "floor_area": 2.18789999999998,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFI",
+            "space_id": 7207,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "195",
+            "long_name": "Toilet",
+            "floor_area": 2.1879,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFT",
+            "space_id": 7244,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "196",
+            "long_name": "Toilet",
+            "floor_area": 2.1879,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFO",
+            "space_id": 7281,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "197",
+            "long_name": "Shower",
+            "floor_area": 5.1129,
+            "storey": "F_00",
+            "global_id": "0zNMwO4Pr2zRtktyhvapFR",
+            "space_id": 7318,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "198",
+            "long_name": "Utility",
+            "floor_area": 19.6595849999989,
+            "storey": "F_02",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUPE",
+            "space_id": 7355,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "199",
+            "long_name": "Utility",
+            "floor_area": 8.89424999999961,
+            "storey": "F_02",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUP3",
+            "space_id": 7392,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "200",
+            "long_name": "Utility",
+            "floor_area": 8.8942499999994,
+            "storey": "F_02",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUP4",
+            "space_id": 7429,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "201",
+            "long_name": "Utility",
+            "floor_area": 9.24824999999978,
+            "storey": "F_02",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUPv",
+            "space_id": 7466,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "202",
+            "long_name": "Corridor",
+            "floor_area": 9.81745926109478,
+            "storey": "F_02",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUP$",
+            "space_id": 7514,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 153921,
+                "global_id": "3laEpoPKr51O98uFM0uJ9x",
+                "name": "Window type 1:Window type 1:1296846",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 9.47704865055579
+          },
+          {
+            "name": "203",
+            "long_name": "Corridor",
+            "floor_area": 9.81660146156207,
+            "storey": "F_02",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUPm",
+            "space_id": 7562,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 153796,
+                "global_id": "3laEpoPKr51O98uFM0uJnc",
+                "name": "Window type 1:Window type 1:1296339",
+                "area": 9.47704865055579
+              },
+              {
+                "id": 153821,
+                "global_id": "3laEpoPKr51O98uFM0uJEh",
+                "name": "Window type 1:Window type 1:1296414",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 18.95409730111158
+          },
+          {
+            "name": "204",
+            "long_name": "Corridor",
+            "floor_area": 9.05070000000099,
+            "storey": "F_02",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUPr",
+            "space_id": 7606,
+            "is_relevant": false,
+            "windows": [
+              {
+                "id": 153721,
+                "global_id": "3laEpoPKr51O98uFM0uJt5",
+                "name": "Window type 1:Window type 1:1295984",
+                "area": 9.47704865055579
+              }
+            ],
+            "total_window_area": 9.47704865055579
+          },
+          {
+            "name": "205",
+            "long_name": "Corridor",
+            "floor_area": 9.6018999999999,
+            "storey": "F_01",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUPh",
+            "space_id": 7643,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "206",
+            "long_name": "Corridor",
+            "floor_area": 9.60189999999998,
+            "storey": "F_01",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUPi",
+            "space_id": 7680,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "207",
+            "long_name": "Utility",
+            "floor_area": 19.6595849999998,
+            "storey": "F_01",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUPY",
+            "space_id": 7717,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "208",
+            "long_name": "Utility",
+            "floor_area": 6.91246000000004,
+            "storey": "F_01",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUUO",
+            "space_id": 7754,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "209",
+            "long_name": "Utility",
+            "floor_area": 6.50278999999999,
+            "storey": "F_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUUK",
+            "space_id": 7791,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "210",
+            "long_name": "Utility",
+            "floor_area": 19.2910274999997,
+            "storey": "F_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUU9",
+            "space_id": 7828,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "211",
+            "long_name": "Corridor",
+            "floor_area": 9.60190000000004,
+            "storey": "F_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUUF",
+            "space_id": 7865,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "212",
+            "long_name": "Utility",
+            "floor_area": 6.32392000000025,
+            "storey": "B_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUU6",
+            "space_id": 7902,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "213",
+            "long_name": "Utility",
+            "floor_area": 19.0296550000003,
+            "storey": "B_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUUx",
+            "space_id": 7945,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "214",
+            "long_name": "Utility",
+            "floor_area": 7.22700000000005,
+            "storey": "B_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUUy",
+            "space_id": 7982,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "215",
+            "long_name": "Utility",
+            "floor_area": 5.39550000000028,
+            "storey": "B_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUUn",
+            "space_id": 8019,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "216",
+            "long_name": "Utility",
+            "floor_area": 5.3955000000005,
+            "storey": "B_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUUo",
+            "space_id": 8056,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "217",
+            "long_name": "Storage/utility",
+            "floor_area": 53.2627900107413,
+            "storey": "B_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUUe",
+            "space_id": 8102,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          },
+          {
+            "name": "218",
+            "long_name": "Corridor",
+            "floor_area": 9.84401999999925,
+            "storey": "B_00",
+            "global_id": "1WnrEJrkj2nwxyz5GbzUUk",
+            "space_id": 8139,
+            "is_relevant": false,
+            "windows": [],
+            "total_window_area": 0
+          }
+        ],
+        "total_floor_area": 8388.656407778277,
+        "total_window_area": 1006.0725842851082,
+        "rooms_with_windows": 38,
+        "total_rooms": 152,
+        "total_windows": 117,
+        "windows_assigned": 117,
+        "overall_ratio": 11.993250591980855
+      }
+    }
+  ],
+  "function": "analyse_model",
+  "run_id": "5f855dae5223414c86f473a1477839b2",
+  "status": "success",
+  "call_count": 1
+}
