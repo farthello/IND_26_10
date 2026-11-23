@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="18.31.0">
+  <bpmn:collaboration id="Collaboration_Workflow">
+    <bpmn:participant id="Participant_Workflow" name="DAYLIGHT REVIEW" processRef="Process_Workflow" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_Workflow" isExecutable="false">
+    <bpmn:laneSet id="LaneSet_Process_Workflow">
+      <bpmn:lane id="Lane_Coordinator" name="BIM COORDINATOR">
+        <bpmn:flowNodeRef>Task_Review</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_Changes</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>EndEvent_W</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_Analyst" name="BIM ANALYST">
+        <bpmn:flowNodeRef>Gateway_Merge</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Receive</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Identify</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Validate</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_Valid</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Calc</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_RankCompare</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ExportW</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_ReturnIssues</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_Architect" name="ARCHITECT">
+        <bpmn:flowNodeRef>StartEvent_W</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_Provide</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_CorrectData</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Task_AssessChanges</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="StartEvent_W" name="Start process">
+      <bpmn:outgoing>Flow_w1</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_Provide" name="Provide IFC, report claim and confirm room uses and assumptions">
+      <bpmn:incoming>Flow_w1</bpmn:incoming>
+      <bpmn:outgoing>Flow_w2</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_CorrectData" name="Correct model data">
+      <bpmn:incoming>Flow_w9</bpmn:incoming>
+      <bpmn:outgoing>Flow_w10</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_AssessChanges" name="Assess changes, update IFC model">
+      <bpmn:incoming>Flow_w16</bpmn:incoming>
+      <bpmn:outgoing>Flow_w17</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_Merge">
+      <bpmn:incoming>Flow_w2</bpmn:incoming>
+      <bpmn:incoming>Flow_w10</bpmn:incoming>
+      <bpmn:incoming>Flow_w17</bpmn:incoming>
+      <bpmn:outgoing>Flow_w3</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_Receive" name="Receive IFC, claim and inputs">
+      <bpmn:incoming>Flow_w3</bpmn:incoming>
+      <bpmn:outgoing>Flow_w4</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_Identify" name="Identify relevant rooms and their windows">
+      <bpmn:incoming>Flow_w4</bpmn:incoming>
+      <bpmn:outgoing>Flow_w5</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_Validate" name="Validate areas, units and correction inputs">
+      <bpmn:incoming>Flow_w5</bpmn:incoming>
+      <bpmn:outgoing>Flow_w6</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_Valid" name="Data valid?">
+      <bpmn:incoming>Flow_w6</bpmn:incoming>
+      <bpmn:outgoing>Flow_w7</bpmn:outgoing>
+      <bpmn:outgoing>Flow_w8</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:task id="Task_Calc" name="Calculate ratios, margins and glazing deficits">
+      <bpmn:incoming>Flow_w7</bpmn:incoming>
+      <bpmn:outgoing>Flow_w11</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:task id="Task_RankCompare" name="Rank rooms and compare window changes">
+      <bpmn:incoming>Flow_w11</bpmn:incoming>
+      <bpmn:outgoing>Flow_w12</bpmn:outgoing>
+      <bpmn:property id="Property_03a4ig6" name="__targetRef_placeholder" />
+      <bpmn:dataInputAssociation id="DataInputAssociation_w1">
+        <bpmn:sourceRef>DataObjectReference_Scenario</bpmn:sourceRef>
+        <bpmn:targetRef>Property_03a4ig6</bpmn:targetRef>
+      </bpmn:dataInputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_ExportW" name="Export room table and storey summary">
+      <bpmn:incoming>Flow_w12</bpmn:incoming>
+      <bpmn:outgoing>Flow_w13</bpmn:outgoing>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_w2">
+        <bpmn:targetRef>DataObjectReference_Results</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_ReturnIssues" name="Return issues to model author">
+      <bpmn:incoming>Flow_w8</bpmn:incoming>
+      <bpmn:outgoing>Flow_w9</bpmn:outgoing>
+      <bpmn:dataOutputAssociation id="DataOutputAssociation_w1">
+        <bpmn:targetRef>DataObjectReference_Issues</bpmn:targetRef>
+      </bpmn:dataOutputAssociation>
+    </bpmn:task>
+    <bpmn:task id="Task_Review" name="Review results with architect">
+      <bpmn:incoming>Flow_w13</bpmn:incoming>
+      <bpmn:outgoing>Flow_w14</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:exclusiveGateway id="Gateway_Changes" name="Changes to&#10;model needed?">
+      <bpmn:incoming>Flow_w14</bpmn:incoming>
+      <bpmn:outgoing>Flow_w15</bpmn:outgoing>
+      <bpmn:outgoing>Flow_w16</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id="EndEvent_W" name="End process">
+      <bpmn:incoming>Flow_w15</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:dataObjectReference id="DataObjectReference_Issues" name="List of unresolved&#10;data issues" dataObjectRef="DataObject_DataObjectReference_Issues" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_Issues" />
+    <bpmn:dataObjectReference id="DataObjectReference_Scenario" name="Window scenario&#10;(proposed change)" dataObjectRef="DataObject_DataObjectReference_Scenario" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_Scenario" />
+    <bpmn:dataObjectReference id="DataObjectReference_Results" name="Room table and&#10;storey summary" dataObjectRef="DataObject_DataObjectReference_Results" />
+    <bpmn:dataObject id="DataObject_DataObjectReference_Results" />
+    <bpmn:sequenceFlow id="Flow_w1" sourceRef="StartEvent_W" targetRef="Task_Provide" />
+    <bpmn:sequenceFlow id="Flow_w2" sourceRef="Task_Provide" targetRef="Gateway_Merge" />
+    <bpmn:sequenceFlow id="Flow_w9" sourceRef="Task_ReturnIssues" targetRef="Task_CorrectData" />
+    <bpmn:sequenceFlow id="Flow_w10" sourceRef="Task_CorrectData" targetRef="Gateway_Merge" />
+    <bpmn:sequenceFlow id="Flow_w16" name="yes" sourceRef="Gateway_Changes" targetRef="Task_AssessChanges" />
+    <bpmn:sequenceFlow id="Flow_w17" name="revised IFC model, repeat checks" sourceRef="Task_AssessChanges" targetRef="Gateway_Merge" />
+    <bpmn:sequenceFlow id="Flow_w3" sourceRef="Gateway_Merge" targetRef="Task_Receive" />
+    <bpmn:sequenceFlow id="Flow_w4" sourceRef="Task_Receive" targetRef="Task_Identify" />
+    <bpmn:sequenceFlow id="Flow_w5" sourceRef="Task_Identify" targetRef="Task_Validate" />
+    <bpmn:sequenceFlow id="Flow_w6" sourceRef="Task_Validate" targetRef="Gateway_Valid" />
+    <bpmn:sequenceFlow id="Flow_w7" name="yes" sourceRef="Gateway_Valid" targetRef="Task_Calc" />
+    <bpmn:sequenceFlow id="Flow_w8" name="no" sourceRef="Gateway_Valid" targetRef="Task_ReturnIssues" />
+    <bpmn:sequenceFlow id="Flow_w11" sourceRef="Task_Calc" targetRef="Task_RankCompare" />
+    <bpmn:sequenceFlow id="Flow_w12" sourceRef="Task_RankCompare" targetRef="Task_ExportW" />
+    <bpmn:sequenceFlow id="Flow_w13" sourceRef="Task_ExportW" targetRef="Task_Review" />
+    <bpmn:sequenceFlow id="Flow_w14" sourceRef="Task_Review" targetRef="Gateway_Changes" />
+    <bpmn:sequenceFlow id="Flow_w15" name="no" sourceRef="Gateway_Changes" targetRef="EndEvent_W" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_Workflow">
+    <bpmndi:BPMNPlane id="BPMNDiagram_Workflow_plane" bpmnElement="Collaboration_Workflow">
+      <bpmndi:BPMNShape id="Participant_Workflow_di" bpmnElement="Participant_Workflow" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="1540" height="730" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Coordinator_di" bpmnElement="Lane_Coordinator" isHorizontal="true">
+        <dc:Bounds x="190" y="610" width="1510" height="200" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Analyst_di" bpmnElement="Lane_Analyst" isHorizontal="true">
+        <dc:Bounds x="190" y="320" width="1510" height="290" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_Architect_di" bpmnElement="Lane_Architect" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="1510" height="240" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="StartEvent_W_di" bpmnElement="StartEvent_W">
+        <dc:Bounds x="242" y="182" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="228" y="222" width="65" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Provide_di" bpmnElement="Task_Provide">
+        <dc:Bounds x="310" y="160" width="110" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_CorrectData_di" bpmnElement="Task_CorrectData">
+        <dc:Bounds x="835" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_AssessChanges_di" bpmnElement="Task_AssessChanges">
+        <dc:Bounds x="1470" y="160" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_Merge_di" bpmnElement="Gateway_Merge" isMarkerVisible="true">
+        <dc:Bounds x="425" y="465" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Receive_di" bpmnElement="Task_Receive">
+        <dc:Bounds x="500" y="450" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Identify_di" bpmnElement="Task_Identify">
+        <dc:Bounds x="620" y="450" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Validate_di" bpmnElement="Task_Validate">
+        <dc:Bounds x="740" y="450" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_Valid_di" bpmnElement="Gateway_Valid" isMarkerVisible="true">
+        <dc:Bounds x="860" y="465" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="857" y="520" width="56" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Calc_di" bpmnElement="Task_Calc">
+        <dc:Bounds x="940" y="450" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_RankCompare_di" bpmnElement="Task_RankCompare">
+        <dc:Bounds x="1060" y="450" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ExportW_di" bpmnElement="Task_ExportW">
+        <dc:Bounds x="1180" y="450" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_ReturnIssues_di" bpmnElement="Task_ReturnIssues">
+        <dc:Bounds x="835" y="345" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_Review_di" bpmnElement="Task_Review">
+        <dc:Bounds x="1350" y="670" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_Changes_di" bpmnElement="Gateway_Changes" isMarkerVisible="true">
+        <dc:Bounds x="1495" y="685" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1482" y="738" width="76" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="EndEvent_W_di" bpmnElement="EndEvent_W">
+        <dc:Bounds x="1580" y="692" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1567" y="737" width="62" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_Issues_di" bpmnElement="DataObjectReference_Issues">
+        <dc:Bounds x="982" y="345" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="957" y="402" width="87" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_Scenario_di" bpmnElement="DataObjectReference_Scenario">
+        <dc:Bounds x="1092" y="655" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1064" y="712" width="93" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="DataObjectReference_Results_di" bpmnElement="DataObjectReference_Results">
+        <dc:Bounds x="1222" y="655" width="36" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1201" y="712" width="79" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_w1_di" bpmnElement="Flow_w1">
+        <di:waypoint x="278" y="200" />
+        <di:waypoint x="310" y="200" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w2_di" bpmnElement="Flow_w2">
+        <di:waypoint x="365" y="240" />
+        <di:waypoint x="365" y="490" />
+        <di:waypoint x="425" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w3_di" bpmnElement="Flow_w3">
+        <di:waypoint x="475" y="490" />
+        <di:waypoint x="500" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w4_di" bpmnElement="Flow_w4">
+        <di:waypoint x="600" y="490" />
+        <di:waypoint x="620" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w5_di" bpmnElement="Flow_w5">
+        <di:waypoint x="720" y="490" />
+        <di:waypoint x="740" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w6_di" bpmnElement="Flow_w6">
+        <di:waypoint x="840" y="490" />
+        <di:waypoint x="860" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w7_di" bpmnElement="Flow_w7">
+        <di:waypoint x="910" y="490" />
+        <di:waypoint x="940" y="490" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="916" y="494" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w8_di" bpmnElement="Flow_w8">
+        <di:waypoint x="885" y="465" />
+        <di:waypoint x="885" y="425" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="896" y="438" width="13" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w9_di" bpmnElement="Flow_w9">
+        <di:waypoint x="885" y="345" />
+        <di:waypoint x="885" y="240" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w10_di" bpmnElement="Flow_w10">
+        <di:waypoint x="835" y="200" />
+        <di:waypoint x="450" y="200" />
+        <di:waypoint x="450" y="465" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w11_di" bpmnElement="Flow_w11">
+        <di:waypoint x="1040" y="490" />
+        <di:waypoint x="1060" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w12_di" bpmnElement="Flow_w12">
+        <di:waypoint x="1160" y="490" />
+        <di:waypoint x="1180" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w13_di" bpmnElement="Flow_w13">
+        <di:waypoint x="1280" y="490" />
+        <di:waypoint x="1400" y="490" />
+        <di:waypoint x="1400" y="670" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w14_di" bpmnElement="Flow_w14">
+        <di:waypoint x="1450" y="710" />
+        <di:waypoint x="1495" y="710" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w15_di" bpmnElement="Flow_w15">
+        <di:waypoint x="1545" y="710" />
+        <di:waypoint x="1580" y="710" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1556" y="693" width="13" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w16_di" bpmnElement="Flow_w16">
+        <di:waypoint x="1520" y="685" />
+        <di:waypoint x="1520" y="240" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1529" y="653" width="18" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_w17_di" bpmnElement="Flow_w17">
+        <di:waypoint x="1520" y="160" />
+        <di:waypoint x="1520" y="120" />
+        <di:waypoint x="450" y="120" />
+        <di:waypoint x="450" y="465" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="888" y="103" width="164" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataInputAssociation_w1_di" bpmnElement="DataInputAssociation_w1">
+        <di:waypoint x="1110" y="655" />
+        <di:waypoint x="1110" y="530" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_w2_di" bpmnElement="DataOutputAssociation_w2">
+        <di:waypoint x="1240" y="530" />
+        <di:waypoint x="1240" y="655" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="DataOutputAssociation_w1_di" bpmnElement="DataOutputAssociation_w1">
+        <di:waypoint x="935" y="370" />
+        <di:waypoint x="982" y="370" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
